@@ -37,14 +37,23 @@ Formación en Recursos Hídricos, Hidrología e Hidráulica.
 
 # SKILLS
 ## MODELAMIENTO
-```{r}
+```{r, echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = 1}
 library(ggplot2)
-df.mod <- data.frame(skill = c("HEC-HMS", "GoldSim", "HecRAS", "IBER", "WEAP"),
-                     idx = c(3, 3, 3, 3, 3),
-                     idt = c(5, 5, 5, 5, 5))
-ggplot(data = df.mod, aes(x = skill, y = idx)) +
-  geom_col(aes(fill = skill), width = 0.7) + scale_fill_brewer(palette = "Paired") +
-  theme_minimal() + coord_flip()
+skill.mod <- c("HEC-HMS", "HEC-HMS", "GoldSim", "GoldSim", "HecRAS", "HecRAS",
+               "IBER", "IBER", "WEAP", "WEAP")
+skill.idx <- c("p", "t", "p", "t", "p", "t", "p", "t", "p", "t")
+idx <- c(3, 5, 3, 5, 3, 5, 3, 5, 3, 5)
+df.mod <- data.frame(skill = skill.mod, skill.idx = skill.idx, idx = idx)
+ggplot(data = df.mod, aes(x = skill, y = idx, fill = skill.idx)) +
+  geom_bar(stat="sum", width = 0.35) + theme_minimal() + coord_flip() +
+  scale_fill_manual(values = c("gray79", "chartreuse3")) +
+  theme(legend.position = "none",
+        axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        aspect.ratio = 1.5/1) +
+  scale_y_discrete(expand = expansion(mult = .05))
 ```
 
 ## CAD Y SIG
