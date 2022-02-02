@@ -1,18 +1,17 @@
 ---
-name: Marie
-surname: Curie
-position: "Professor"
-address: "School of Physics & Chemistry, École Normale Supérieure"
-phone: +1 22 3333 4444
-profilepic: mariecurie.jpg
-www: mariecurie.com
-email: "Marie.Curie@ens.fr"
-twitter: mariecurie
-github: mariecurie
-linkedin: mariecurie
-date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Marie is a Polish and naturalized-French physicist and chemist who conducts pioneering research on radioactivity."
+name: Geomar
+surname: Perales A.
+position: "Bachiller de ingeniería con experiencia en Recursos Hídricos"
+address: "Lima, Perú"
+phone: +51 952344373
+linkedin: GeomarPerales
+email: "perales.geomar@gmail.com"
+profilepic: gperales.jpg
+www: "hydroprime.wordpress.com"
+github: GeomarPerales
+aboutme: "Estoy enfocado a las áreas de Hidrología, Hidráulica y Recursos Hídricos."
 output: vitae::twentyseconds
+title: \textcolor{blue}
 ---
 
 ```{r setup, include=FALSE}
@@ -20,47 +19,63 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
-# Some stuff about me
+# TITULACIÓN UNIVERSITARIA
 
- * I poisoned myself doing research.
- * I was the first woman to win a Nobel prize
- * I was the first person and only woman to win a Nobel prize in two different sciences.
+## Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020
 
-# Education
+## Formación en Ing. Mecánica de Fluidos | Julio - 2019
+**Universidad Nacional Mayor de San Marcos**  
+Formación en Recursos Hídricos, Hidrología e Hidráulica.
 
+# FORMACIÓN COMPLEMENTARIA
+
+* Hidrología General: 40 h | Agencia Nacional de Aguas (MOOC, Brasil)
+* Especialización en R: Básico, Intermedio y Avanzado: 84 h | SDC
+* Modelos de Gestión de Recursos Hídricos en 5 Cuencas Hidrográficas del Perú: WEAP Y MODFLOW: 40 h | TYPSA Perú.
+* Dipl. de Mod. Hidráulico e Hidrológico: 120 h | CIDHMA.
+* Gestión de Proy. con Metodologías Agiles: 40 h | Universitas Telefónica (MOOC, España)
+
+# SKILLS
+## MODELAMIENTO
 ```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
+library(ggplot2)
+df.mod <- data.frame(skill = c("HEC-HMS", "GoldSim", "HecRAS", "IBER", "WEAP"),
+                     idx = c(3, 3, 3, 3, 3),
+                     idt = c(5, 5, 5, 5, 5))
+ggplot(data = df.mod, aes(x = skill, y = idx)) +
+  geom_col(aes(fill = skill), width = 0.7) + scale_fill_brewer(palette = "Paired") +
+  theme_minimal() + coord_flip()
 ```
 
-# Nobel Prizes
-
+## CAD Y SIG
 ```{r}
-tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
-) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
-  )
+df.sig <- data.frame(skill = c("ArcGIS", "QGIS", "Python para SIG", "AutoCAD", "Civil 3D"),
+                     idx = c(3, 3, 3, 3, 3),
+                     idt = c(5, 5, 5, 5, 5))
 ```
 
-# Publications
+## ESTADÍSTICAS Y LENG. DE PROGRAMACIÓN
+```{r}
+library(ggplot2)
+df.est <- data.frame(skill = c("R/PYTHON", "HYDRACCESS", "PAST", "HYDROGNOMON"),
+                     idx = c(3, 3, 3, 3),
+                     idt = c(5, 5, 5, 5))
+
+```
+
+\newpage
+# EXPERIENCIA PROFESIONAL
 
 ```{r}
-library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
 
-bibliography_entries("packages.bib") %>%
-  arrange(desc(author$family), issued)
 ```
+
+
+\newpage
+# PRINCIPALES PROYECTOS
+
+
+\newpage
+# ASOCIACIONES TÉCNICAS
+
 
