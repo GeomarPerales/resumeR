@@ -1,40 +1,10 @@
 ---
-name: Geomar
-surname: Perales A.
-position: "Bachiller de ingeniería con experiencia en Recursos Hídricos"
-address: "Lima, Perú"
-phone: +51 952344373
-linkedin: GeomarPerales
-email: "perales.geomar@gmail.com"
-profilepic: gperales.jpg
-www: "hydroprime.wordpress.com"
-github: GeomarPerales
-aboutme: "Estoy enfocado a las áreas de Hidrología, Hidráulica y Recursos Hídricos."
-output: vitae::twentyseconds
-title: \textcolor{blue}
+title: ""
+output: pdf_document
 ---
-
-<style type="text/css">
-  body{
-  font-size: 12pt;
-}
-h1.title {
-  font-size: 38px;
-  color: DarkRed;
-}
-h1 { /* Header 1 */
-  font-size: 28px;
-  color: DarkBlue;
-}
-h2 { /* Header 2 */
-    font-size: 22px;
-  color: DarkBlue;
-}
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(vitae)
 ```
 
 # TITULACIÓN UNIVERSITARIA
@@ -139,5 +109,3 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
 
 \newpage
 # ASOCIACIONES TÉCNICAS
-
-
