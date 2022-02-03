@@ -1,14 +1,12 @@
 ---
 title: ""
 output: pdf_document
-theme: cerulean
-css: style.css
+mainfont: Arial
+sansfont: Arial
+monofont: Arial
+fontsize: 10
+geometry: margin=1cm
 ---
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
 
 # TITULACIÓN UNIVERSITARIA
 
@@ -97,6 +95,7 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
         axis.ticks.x=element_blank(),
         aspect.ratio = 1.5/1) + facet_grid(space = "free")
 ```
+
 
 \newpage
 # EXPERIENCIA PROFESIONAL
