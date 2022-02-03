@@ -12,10 +12,6 @@ header-includes:
 - \usepackage{lastpage}
 - \usepackage{array}
 - \usepackage{lipsum}
-
-
-
-
 ---
 
 
