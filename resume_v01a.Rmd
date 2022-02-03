@@ -1,7 +1,10 @@
 ---
 title: ""
 output: pdf_document
+theme: cerulean
+css: style.css
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)

@@ -11,33 +11,14 @@ www: "hydroprime.wordpress.com"
 github: GeomarPerales
 aboutme: "Estoy enfocado a las áreas de Hidrología, Hidráulica y Recursos Hídricos."
 output: vitae::twentyseconds
-title: \textcolor{blue}
 ---
-
-<style type="text/css">
-  body{
-  font-size: 12pt;
-}
-h1.title {
-  font-size: 38px;
-  color: DarkRed;
-}
-h1 { /* Header 1 */
-  font-size: 28px;
-  color: DarkBlue;
-}
-h2 { /* Header 2 */
-    font-size: 22px;
-  color: DarkBlue;
-}
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
-# TITULACIÓN UNIVERSITARIA
+#TITULACIÓN UNIVERSITARIA** 
 
 ## Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020
 
@@ -69,7 +50,7 @@ df.mod$skill <- factor(df.mod$skill, levels = unique(df.mod$skill))
 ggplot(data = df.mod, aes(x = skill, y = idx, fill = skill.idx)) +
   geom_bar(stat="sum", width = 0.35, position = "stack") +
   theme_minimal() + coord_flip() +
-  scale_fill_manual(values = c("gray79", "chartreuse3")) +
+  scale_fill_manual(values = c("gray79", "#04B404")) +
   theme(legend.position = "none",
         axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -93,7 +74,7 @@ df.sig$skill <- factor(df.sig$skill, levels = unique(df.sig$skill))
 ggplot(data = df.sig, aes(x = skill, y = idx, fill = skill.idx)) +
   geom_bar(stat="sum", width = 0.35, position = "stack") +
   theme_minimal() + coord_flip() +
-  scale_fill_manual(values = c("gray79", "chartreuse3")) +
+  scale_fill_manual(values = c("gray79", "#04B404")) +
   theme(legend.position = "none",
         axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -116,7 +97,7 @@ df.est$skill <- factor(df.est$skill, levels = unique(df.est$skill))
 ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
   geom_bar(stat="sum", width = 0.35, position = "stack") +
   theme_minimal() + coord_flip() +
-  scale_fill_manual(values = c("gray79", "chartreuse3")) +
+  scale_fill_manual(values = c("gray79", "#04B404")) +
   theme(legend.position = "none",
         axis.title.x=element_blank(),
         axis.title.y=element_blank(),

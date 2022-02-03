@@ -31,17 +31,17 @@
 %	 COLOURS
 %----------------------------------------------------------------------------------------
 
-\definecolor{white}{RGB}{255,255,255}
-\definecolor{gray}{HTML}{4D4D4D}
-\definecolor{sidecolor}{HTML}{E7E7E7}
-\definecolor{mainblue}{HTML}{0E5484}
-\definecolor{maingray}{HTML}{B9B9B9}
+\definecolor{white}{HTML}{04B404}
+\definecolor{gray}{HTML}{000000}
+\definecolor{sidecolor}{HTML}{64FE2E}
+\definecolor{mainblue}{RGB}{255,255,255}
+\definecolor{maingray}{RGB}{255,255,255}
 
 %----------------------------------------------------------------------------------------
 %	 MISC CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\renewcommand{\bfseries}{\color{gray}} % Make \textbf produce coloured text instead
+\renewcommand{\bfseries}{\color{black}} % Make \textbf produce coloured text instead
 \def\endfirstpage{\newpage\newgeometry{left=1.5cm,top=1.5cm,right=1.5cm,bottom=1.5cm}}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -167,7 +167,7 @@
 		%------------------------------------------------
 
 		\ifthenelse{\equal{\aboutme}{}}{}{
-			\profilesection{About me}
+			\profilesection{Perfil}
 			\begin{flushleft}
 				\aboutme
 			\end{flushleft}
