@@ -1,63 +1,40 @@
 ---
-title: "R Markdown Example With Numbered Sections"
-output:
-  bookdown::pdf_document2:  
-    toc: true
-    toc_depth: 4
-    number_sections: true
-
-
+title: "Untitled"
+classoption: landscape
+output: 
+  pdf_document:
+    number_sections: false
+    dev: pdf
+    keep_tex: false
+    toc: yes
 header-includes:
 - \usepackage{fancyhdr}
-- \usepackage{lastpage}
-- \usepackage{array}
-- \usepackage{lipsum}
+- \pagestyle{fancy}
+- \fancyhead[C]{center text}
+- \fancyhead[R]{right text}
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-\fancypagestyle{tableHeader}{
-    
-    \fancyhf{}
-    
-    \setlength\headheight{90pt}
+## R Markdown
 
-\fancyhead[C]{
-\centering{
-\begin{minipage}{1.1\textwidth}
-  \renewcommand{\arraystretch}{2}
-    \begin{tabular}{|>{\centering\arraybackslash}m{0.2\textwidth}|>{\centering\arraybackslash}m{0.2\textwidth}|>{\centering\arraybackslash}m{0.2\textwidth}|>{\centering\arraybackslash}m{0.2\textwidth}|}
-      \hline
-      \multicolumn{4}{|c|}{\textbf{\LARGE{Title}}} \\ 
-      \hline
-      \textbf{\Large{Field 1:}}  & \textbf{\Large{Field 2:}}  & \textbf{\Large{Date:}}  & \textbf{\Large{Page:}}\\
-      \textbf{\Large{Information}}  & \textbf{\Large{Information}}  & \textbf{\Large{`r Sys.Date()`}}  & \textbf{\Large{{\thepage} of \pageref{LastPage}}}\\ 
-      \hline
-     \end{tabular}
-  \end{minipage}
-  }}
-}
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-\renewcommand{\headrulewidth}{0pt}
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-\thispagestyle{tableHeader}
+```{r cars}
+summary(cars)
+```
 
-\pagestyle{tableHeader}
+## Including Plots
 
+You can also embed plots, for example:
 
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
 
-
-
-
-# Section 1
-
-\lipsum[3]
-
-## sub section 
-
-
-\newpage
-
-\lipsum[2]
-
-
+Note that the `echo = FALSE` parameter
 
