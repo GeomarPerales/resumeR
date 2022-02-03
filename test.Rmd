@@ -1,35 +1,67 @@
 ---
-title: "Test"
-header-includes: \usepackage{supertabular}
+title: "R Markdown Example With Numbered Sections"
 output:
-  pdf_document: 
-    pandoc_args: [
-      "-V", "classoption=twocolumn"
-    ]
+  bookdown::pdf_document2:  
+    toc: true
+    toc_depth: 4
+    number_sections: true
+
+
+header-includes:
+- \usepackage{fancyhdr}
+- \usepackage{lastpage}
+- \usepackage{array}
+- \usepackage{lipsum}
+
+
+
+
 ---
-\documentclass{article}
-\begin{document}
-\onecolumn
-
-## Two columns of text
-## Once column section. 
-This part should be the whole page width
-```{r plot}
-plot(rnorm(20),rnorm(20))
-```
 
 
-\twocolumn
-\tablehead{Header of first column & Header of second column \\}
+\fancypagestyle{tableHeader}{
+    
+    \fancyhf{}
+    
+    \setlength\headheight{90pt}
 
-\begin{supertabular}{ccc}
-Table cell 1, 1 & Table cell 1, 2 \\
-Table cell 2, 1 & Table cell 2, 2 \\
-Table cell 1, 1 & Table cell 1, 2 \\
-...
-...
-\end{supertabular}
-\end{document}
+\fancyhead[C]{
+\centering{
+\begin{minipage}{1.1\textwidth}
+  \renewcommand{\arraystretch}{2}
+    \begin{tabular}{|>{\centering\arraybackslash}m{0.2\textwidth}|>{\centering\arraybackslash}m{0.2\textwidth}|>{\centering\arraybackslash}m{0.2\textwidth}|>{\centering\arraybackslash}m{0.2\textwidth}|}
+      \hline
+      \multicolumn{4}{|c|}{\textbf{\LARGE{Title}}} \\ 
+      \hline
+      \textbf{\Large{Field 1:}}  & \textbf{\Large{Field 2:}}  & \textbf{\Large{Date:}}  & \textbf{\Large{Page:}}\\
+      \textbf{\Large{Information}}  & \textbf{\Large{Information}}  & \textbf{\Large{`r Sys.Date()`}}  & \textbf{\Large{{\thepage} of \pageref{LastPage}}}\\ 
+      \hline
+     \end{tabular}
+  \end{minipage}
+  }}
+}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\thispagestyle{tableHeader}
+
+\pagestyle{tableHeader}
+
+
+
+
+
+
+# Section 1
+
+\lipsum[3]
+
+## sub section 
+
+
+\newpage
+
+\lipsum[2]
 
 
 
