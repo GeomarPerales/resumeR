@@ -1,0 +1,35 @@
+---
+title: "Test"
+header-includes: \usepackage{supertabular}
+output:
+  pdf_document: 
+    pandoc_args: [
+      "-V", "classoption=twocolumn"
+    ]
+---
+\documentclass{article}
+\begin{document}
+\onecolumn
+
+## Two columns of text
+## Once column section. 
+This part should be the whole page width
+```{r plot}
+plot(rnorm(20),rnorm(20))
+```
+
+
+\twocolumn
+\tablehead{Header of first column & Header of second column \\}
+
+\begin{supertabular}{ccc}
+Table cell 1, 1 & Table cell 1, 2 \\
+Table cell 2, 1 & Table cell 2, 2 \\
+Table cell 1, 1 & Table cell 1, 2 \\
+...
+...
+\end{supertabular}
+\end{document}
+
+
+

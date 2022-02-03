@@ -1,11 +1,12 @@
 ---
 title: ""
 output: pdf_document
+fontsize: 10
+font: Arial
+geometry: margin = 1cm
 mainfont: Arial
 sansfont: Arial
 monofont: Arial
-fontsize: 10
-geometry: margin=1cm
 ---
 
 # TITULACIÓN UNIVERSITARIA
@@ -99,6 +100,8 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
 
 \newpage
 # EXPERIENCIA PROFESIONAL
+
+
 
 ```{r}
 
