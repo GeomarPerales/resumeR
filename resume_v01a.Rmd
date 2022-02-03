@@ -2,21 +2,15 @@
 title: ""
 output:
   pdf_document:
-    latex_engine: lualatex
-    keep_tex: yes
+    template: template.tex
 fontsize: 10
 header-includes:
-  - \usepackage[left=7.6cm,top=0.1cm,right=1cm,bottom=0.1cm,nohead,nofoot]{geometry}
   - \usepackage{titlesec}
   - \usepackage{xcolor}
   - \usepackage[document]{ragged2e}
   - \definecolor{title1}{HTML}{088A08}
   - \setmainfont{Montserrat} #aqui hubo cambio general del doc
-  - \setsansfont{Arial}
-  - \setmonofont{Arial}
-  - \geometry{vmargin = 1cm, hmargin = 1cm}
   - \titleformat{\section}{\Large\fontsize{12}{14}\bfseries\sffamily\color{title1}}{}{0pt}{}
-
 ---
 
 # TITULACIÓN UNIVERSITARIA
