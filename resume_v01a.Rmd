@@ -1,15 +1,13 @@
 ---
 title: ""
-output:
-  pdf_document:
-    template: template.tex
+output: pdf_document
+cls: template.cls
 fontsize: 10
 header-includes:
   - \usepackage{titlesec}
   - \usepackage{xcolor}
   - \usepackage[document]{ragged2e}
   - \definecolor{title1}{HTML}{088A08}
-  - \setmainfont{Montserrat} #aqui hubo cambio general del doc
   - \titleformat{\section}{\Large\fontsize{12}{14}\bfseries\sffamily\color{title1}}{}{0pt}{}
 ---
 
