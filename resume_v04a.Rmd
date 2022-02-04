@@ -3,7 +3,7 @@ title: ""
 output:
   pdf_document:
     latex_engine: xelatex
-geometry: top=0cm, margin=1.8cm, left=0.1cm, right=1cm, bottom=1cm
+geometry: top=0cm, margin=1.8cm, left=0.1cm, right=1cm, bottom=-3.5cm
 fontsize: 10pt
 header-includes:
   - \usepackage{titlesec}
@@ -177,27 +177,28 @@ alfa
   \begin{minipage}{0.83\textwidth}
   \justify
 
-\section{EXPERIENCIA PROFESIONAL\vspace{-0.35em}}
-
+\section{EXPERIENCIA PROFESIONAL\vspace{-0.68em}}
+\vfill
 \textcolor{black}{\textbf{ESPECIALISTA JR. EN RECURSOS HÍDRICOS, ÁREA DE CIENCIAS DEL AGUA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{SNC-LAVALIN, Perú}}
 \vspace{1mm}\vfill
 Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para caracterización climática, modelamiento hidrológico y análisis de máximas avenidas, análisis de sequías, planes de gestión hídrica, uso de lenguajes de programación (R y Python) para automatizar actividades, y análisis de datos espaciales y no espaciales.
+\vspace{5mm}
 
 \textcolor{black}{\textbf{INGENIERO JR. EN RECURSOS HÍDRICOS, ÁREA DE GEOINGENIERÍA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{SRK Consulting, Perú}}
 \vspace{1mm}\vfill
 Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para caracterización climática, modelamiento hidrológico y análisis de máximas avenidas, análisis de sequías, planes de gestión hídrica, uso de herramientas SIG para el análisis geoespacial y desarrollo de mapas temáticos, modelamiento de balance de aguas en GoldSim, uso de lenguajes de programación (R y Python) para automatizar actividades, y análisis de datos espaciales y no espaciales.
-
+\vspace{5mm}
 
 \textcolor{black}{\textbf{ASISTENTE DE INGENIERÍA, DPTO DE INGENIERÍA DEL AGUA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{TYPSA, Perú}}
 \vspace{1mm}\vfill
 Pre-proceso, proceso y análisis de datos hidroclimáticos para modelamiento hidrológico, eventos extremos, planes de gestión hídrica, Dibujante CAD de planos hidráulicos, abastecimiento y drenaje, SIG para el análisis, proceso geoespacial en hidráulica e hidrología y creación de mapas.
-
+\vspace{5mm}
 
 \textcolor{black}{\textbf{ASISTENTE EN RECURSOS HÍDRICOS}}
 \vspace{1mm}\vfill
@@ -205,14 +206,14 @@ Pre-proceso, proceso y análisis de datos hidroclimáticos para modelamiento hid
 \vspace{1mm}\vfill
 Pre-proceso de datos hidroclimáticos para modelamiento: hidrológico, eventos extremos y
 recursos hídricos, redacción y revisión parcial de informes y anexos, procesamiento geoespacial usando herramientas SIG
-
+\vspace{5mm}
 
 \textcolor{black}{\textbf{VOLUNTARIO}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{CIDIMF-UNMSM, Perú}}
 \vspace{1mm}\vfill
 Desarrollé programas para Hidrología Estadística usando R, Python y MATLAB, Participé en la planeación y desarrollo de un sistema de riego automatizado, brinde capacitación en Hidrología y afines.
-
+\vspace{5mm}
 
 \section{PRINCIPALES PROYECTOS\vspace{-0.35em}}
 
@@ -222,6 +223,7 @@ Desarrollé programas para Hidrología Estadística usando R, Python y MATLAB, P
 \vspace{1mm}\vfill
 Soporte en el aforo de ríos y quebradas, toma de muestras de sedimentos y agua en múltiples
 puntos de la microcuenca Chaucha (Ecuador).
+\vspace{5mm}
 
 \textcolor{black}{\textbf{Paquete IdeamR | COLOMBIA}}
 \vspace{1mm}\vfill
@@ -229,6 +231,7 @@ puntos de la microcuenca Chaucha (Ecuador).
 \vspace{1mm}\vfill
 ideamR es un paquete desarrollado en R para el manejo de datos hidrometeorológicos de DHIME
 (IDEAM, Colombia). DHIME es un Sistema de Información para el manejo de datos hidrológicos y meteorológicos de Colombia. Enlace: https://github.com/GeomarPerales/ideamR
+\vspace{5mm}
 
 \textcolor{black}{\textbf{RPisco | PERÚ}}
 \vspace{1mm}\vfill
@@ -253,13 +256,12 @@ alfa
   \begin{minipage}{0.83\textwidth}
   \justify
 
-
-
 \textcolor{black}{\textbf{ESTUDIO HIDROLÓGICO Y ANÁLISIS DE MÁXIMAS AVENIDAS | COLOMBIA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{\emph{U.M. Quinchia y La Perla}}}
 \vspace{1mm}\vfill
 Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para la caracterización hidroclimática, y análisis de máximas avenidas.
+\vspace{5mm}
 
 \textcolor{black}{\textbf{RECOPILACIÓN Y PRE-PROCESO DE INFORMACIÓN CLIMÁTICA | UZBEKISTÁN}}
 \vspace{1mm}\vfill
@@ -267,6 +269,7 @@ Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para l
 \vspace{1mm}\vfill
 Búsqueda, recopilación y proceso de información hidroclimática en bases de datos extranjeras
 (en inglés). Revisión y análisis de la bibliografía (Papers, informes y otros, en inglés).
+\vspace{5mm}
 
 \textcolor{black}{\textbf{PRE-PROCESO Y ANÁLISIS DE PRECIPITACIÓN MAXIMA | PERÚ}}
 \vspace{1mm}\vfill
@@ -274,6 +277,7 @@ Búsqueda, recopilación y proceso de información hidroclimática en bases de d
 \vspace{1mm}\vfill
 Responsable del pre-proceso, proceso y análisis de precipitación máxima de 24 horas de diversas
 fuentes de información para el estudio de máximas avenidas.
+\vspace{5mm}
 
 \textcolor{black}{\textbf{ENTREGA DEL 4° INFORME FINAL DE RECURSOS HÍDRICOS | PERÚ}}
 \vspace{1mm}\vfill
@@ -281,6 +285,7 @@ fuentes de información para el estudio de máximas avenidas.
 \vspace{1mm}\vfill
 Responsable de la redacción parcial, revisión y entrega del Informe de la Cuenca Nanay,
 planeamiento, gestión, preparación y entrega del Informe más anexos respectivos.
+\vspace{5mm}
 
 \textcolor{black}{\textbf{MODELACIÓN HIDROLÓGICA | PERÚ}}
 \vspace{1mm}\vfill
@@ -288,6 +293,7 @@ planeamiento, gestión, preparación y entrega del Informe más anexos respectiv
 \vspace{1mm}\vfill
 Soporte en Modelación Hidrológica, geoprocesamiento de información pluviométrica, modelación
 de caudales, delimitación de cuencas urbanas, dibujante SIG.
+\vspace{5mm}
 
 \textcolor{black}{\textbf{PRE-PROCESO Y ANÁLISIS DE PRECIPITACIÓN MAXIMA | PERÚ}}
 \vspace{1mm}\vfill
@@ -295,6 +301,7 @@ de caudales, delimitación de cuencas urbanas, dibujante SIG.
 \vspace{1mm}\vfill
 Responsable del Pre-proceso y proceso de precipitación máxima de 24 horas para el estudio de
 máximas avenidas del Proyecto.
+\vspace{5mm}
 
 \textcolor{black}{\textbf{PROCESO DE INFORMACIÓN DE DEMANDAS HÍDRICAS | PERÚ}}
 \vspace{1mm}\vfill
@@ -302,6 +309,7 @@ máximas avenidas del Proyecto.
 \vspace{1mm}\vfill
 Responsable de la coordinación, gestión y organización de equipos para el pre-proceso de
 demandas hídricas, proceso y generación de bases de datos de demandas hídricas.
+\vspace{5mm}
 
 \textcolor{black}{\textbf{PRE-PROCESO DE INFORMACIÓN HIDROCLIMÁTICA | PERÚ}}
 \vspace{1mm}\vfill
@@ -309,6 +317,7 @@ demandas hídricas, proceso y generación de bases de datos de demandas hídrica
 \vspace{1mm}\vfill
 Responsable del Pre-proceso, generación y estructuración de bases de datos hidroclimáticos
 para el modelamiento hidrológico y de recursos hídricos de las cuencas del estudio.
+\vspace{5mm}
 
   \end{minipage}
 \end{figure}
@@ -352,11 +361,13 @@ Webinar “R aplicado a Hidrología”, 29-09-20
 \vspace{1mm}\vfill
 Dirección y gestión de diversas actividades de: divulgación, capacitación y orientación en temas
 de Recursos Hídricos a los miembros del Grupo Estudiantil CIDIMF y externos
+\vspace{5mm}
 
 \textcolor{black}{\textbf{VOLUNTARIO}}
 \vspace{1mm}\vfill
 Colabore en la gestión, organización y divulgación de eventos orientados a los Recursos Hídricos, desarrollé habilidades de liderazgo y participe en multiples actividades de divulgación.
-  
+\vspace{5mm}
+
   \end{minipage}
 \end{figure}
 

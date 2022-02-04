@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 12:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1022,11 +1022,11 @@ LaTeX Info: Redefining \nameref on input line 86.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(2.84544pt, 582.99681pt, 28.45274pt)
-* v-part:(T,H,B)=(51.21504pt, 715.3022pt, 28.45274pt)
+* v-part:(T,H,B)=(51.21504pt, 843.33958pt, -99.58464pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=582.99681pt
-* \textheight=715.3022pt
+* \textheight=843.33958pt
 * \oddsidemargin=-69.42455pt
 * \evensidemargin=-69.42455pt
 * \topmargin=-58.05495pt
@@ -1101,67 +1101,10 @@ Overfull \hbox (2.61998pt too wide) in paragraph at lines 94--166
 []$[]$  $[]$  
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 183.
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 189--190
-[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
-os hidroclimáticos para caracterización
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 195--196
-[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
-os hidroclimáticos para caracterización
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 220.
-
-LaTeX Font Info:    Font shape `TU/montserrat(0)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 224.
-
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 172--243
-[]$[]$  $[]$  
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 285--287
-[]\TU/montserrat(0)/m/n/10 Responsable de la redacción parcial, revisión y entr
-ega del Informe de la Cuenca Nanay,
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 292--294
-[]\TU/montserrat(0)/m/n/10 Soporte en Modelación Hidrológica, geoprocesamiento 
-de información pluviométrica, mod-
- []
-
-
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 248--317
-[]$[]$  $[]$  
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 333.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 350.
-
-
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 321--364
-[]$[]$  $[]$  
- []
-
 LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 366.
+(Font)              scaled to size 16.0pt on input line 169.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 366.
+(Font)              scaled to size 16.0pt on input line 169.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.99203pt, for example:
@@ -1170,7 +1113,66 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.99203pt}.
 
-[1]
+[1
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 183.
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 189--191
+[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
+os hidroclimáticos para caracterización
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 196--198
+[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
+os hidroclimáticos para caracterización
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 221.
+
+LaTeX Font Info:    Font shape `TU/montserrat(0)/b/it' will be
+(Font)              scaled to size 10.0pt on input line 225.
+
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 172--246
+[]$[]$  $[]$  
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 289--292
+[]\TU/montserrat(0)/m/n/10 Responsable de la redacción parcial, revisión y entr
+ega del Informe de la Cuenca Nanay,
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 297--300
+[]\TU/montserrat(0)/m/n/10 Soporte en Modelación Hidrológica, geoprocesamiento 
+de información pluviométrica, mod-
+ []
+
+
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 251--326
+[]$[]$  $[]$  
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 342.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 359.
+
+
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 330--375
+[]$[]$  $[]$  
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.99203pt, for example:
@@ -1190,12 +1192,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3] (./resume_v04a.aux)
 Package rerunfilecheck Info: File `resume_v04a.out' has not changed.
-(rerunfilecheck)             Checksum: FF797F192A64FAC1B6123AEF3C314BAB;1377.
+(rerunfilecheck)             Checksum: B527646727F764457F174F7FE2597075;1377.
  ) 
 Here is how much of TeX's memory you used:
  18628 strings out of 478190
  349716 string characters out of 5853074
- 836420 words of memory out of 5000000
+ 829428 words of memory out of 5000000
  38999 multiletter control sequences out of 15000+600000
  471599 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
