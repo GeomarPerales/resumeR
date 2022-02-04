@@ -33,7 +33,7 @@ header-includes:
 \begin{figure}[tph]
 \begin{minipage}[t]{0.3\textwidth\vspace{-\topskip}}
   \centering
-  \vspace{0cm}
+  \vspace{-1cm}
 \includegraphics[width=5.0cm]{images/gperales.jpg}
   \section{PERFIL\vspace{-0.35em}}
   \justify
@@ -44,9 +44,8 @@ buen desempeño para el trabajo en equipo y la mejora continua.
 
 Tengo capacidades técnicas en: Hidrología, procesando y analizando datos usando R,
 Python y Excel; En Recursos hídricos, recopilando y procesando información hídrica;
-en Hidráulica, desarrollando modelos de simulación; en liderazgo y trabajo en equipo,
-dirigiendo y formando parte de grupos de trabajo durante la universidad y en
-el trabajo.
+en Hidráulica, desarrollando modelos de simulación.
+
 \setlength\parskip{1em}
 
 Uno de mis objetivos es cursar la maestría de Hidroinformática en Delft (Holanda),
@@ -54,31 +53,24 @@ para lo cual llevo una preparación autodidacta técnica, cultural y bilingüe.
 
   \subsection{IDIOMAS\vspace{0em}}
 
-\textcolor{darkgray}{\textbf{Español - nativo}\vfill\vspace{0.1mm}}
-\textcolor{darkgray}{\textbf{Quechua - Básico (en proceso)}\vfill\vspace{0.1mm}}
-\textcolor{darkgray}{\textbf{Inglés- Básico (en proceso)}\vfill\vspace{0.1mm}}
+\textcolor{darkgray}{\textbf{Español - nativo}\vfill\vspace{-1mm}}
+\textcolor{darkgray}{\textbf{Quechua - Básico (en proceso)}\vfill\vspace{-1mm}}
+\textcolor{darkgray}{\textbf{Inglés- Básico (en proceso)}\vfill\vspace{-1mm}}
 
   \subsection{REFERENCIAS\vspace{0em}}
-  
-Ing. Gustavo Atúncar
 
-Especialista de Hidrología e Hidráulica
+\raggedright
+{Ing. Gustavo Atúncar\vfill\vspace{-3mm}}
+{Esp. de Hidrología e Hidráulica\vfill\vspace{-3mm}}
+{Cel. N° 939272465\vfill\vspace{0mm}}
 
-Cel. N° 939272465
+{Ing. Yonatan Bustamante\vfill\vspace{-3mm}}
+{Esp. de Hidrología e Hidráulica\vfill\vspace{-3mm}}
+{Cel. N° 982267689\vfill\vspace{0mm}}
 
-Ing. Yonatan Bustamante
-
-Especialista de Hidrología e Hidráulica
-
-Cel. N° 982267689
-
-Ing. Elvis Castro
-Jefe del área de Recursos Hídricos, SRK
-Cel. N° 956302303
-
-Ing. Michel Cueva
-Especialista de Hidrología e Hidráulica
-Cel. N°  944120064
+{Ing. Elvis Castro\vfill\vspace{-3mm}}
+{Jefe de Recursos Hídricos, SRK\vfill\vspace{-3mm}}
+{Cel. N° 956302303\vfill\vspace{0mm}}
 
 
 \vspace{1mm}
