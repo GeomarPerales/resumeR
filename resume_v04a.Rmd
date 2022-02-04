@@ -3,7 +3,7 @@ title: ""
 output:
   pdf_document:
     latex_engine: xelatex
-geometry: top=0cm, margin=1.8cm, left=0.1cm, right=1cm, bottom=-3.5cm
+geometry: top=0cm, margin=1.8cm, left=0.1cm, right=1cm
 fontsize: 10pt
 header-includes:
   - \usepackage{titlesec}
@@ -24,52 +24,49 @@ header-includes:
   - \usepackage{setspace}
 ---
 
-\setlength{\headsep}{-2.2cm}
 \newpage
 \newcommand{\changefont}{%
     \fontsize{16}{9}\selectfont
 }
+
 \begin{figure}[tph]
-  \begin{minipage}{0.4\textwidth}
+\begin{minipage}[t]{0.4\textwidth}
   \justify
 
-\section{PERFIL}
+\section{PERFIL\vspace{-0.35em}}
+\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
+f\vspace{1.3mm}\vfill
 
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
 
   \end{minipage}
   %
   \hfill
   %
-  \begin{minipage}{0.6\textwidth}
+  \begin{minipage}[t]{0.6\textwidth}
   \justify
-  
+
 \section{TITULACIÓN UNIVERSITARIA\vspace{-0.35em}}
 
 \textcolor{black}{\textbf{Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020}}\vspace{1.3mm}\vfill
@@ -166,7 +163,7 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
 \newpage
 
 \begin{figure}[tph]
-  \begin{minipage}{0.17\textwidth}
+  \begin{minipage}[t]{0.17\textwidth}
 
 alfa
 
@@ -174,11 +171,11 @@ alfa
   %
   \hfill
   %
-  \begin{minipage}{0.83\textwidth}
+  \begin{minipage}[t]{0.83\textwidth}
   \justify
 
-\section{EXPERIENCIA PROFESIONAL\vspace{-0.68em}}
-\vfill
+\section{EXPERIENCIA PROFESIONAL\vspace{-0.35em}}
+\vspace{1mm}\vfill
 \textcolor{black}{\textbf{ESPECIALISTA JR. EN RECURSOS HÍDRICOS, ÁREA DE CIENCIAS DEL AGUA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{SNC-LAVALIN, Perú}}
@@ -213,7 +210,6 @@ recursos hídricos, redacción y revisión parcial de informes y anexos, procesa
 \textcolor{darkgray}{\textbf{CIDIMF-UNMSM, Perú}}
 \vspace{1mm}\vfill
 Desarrollé programas para Hidrología Estadística usando R, Python y MATLAB, Participé en la planeación y desarrollo de un sistema de riego automatizado, brinde capacitación en Hidrología y afines.
-\vspace{5mm}
 
 \section{PRINCIPALES PROYECTOS\vspace{-0.35em}}
 
