@@ -3,7 +3,7 @@ title: ""
 output:
   pdf_document:
     latex_engine: xelatex
-geometry: top=0cm, margin=1.8cm, left=0.1cm, right=1cm
+geometry: top=0cm, margin=1.8cm, left=0.6cm, right=0.6cm
 fontsize: 10pt
 header-includes:
   - \usepackage{titlesec}
@@ -22,41 +22,70 @@ header-includes:
   - \fancypagestyle{plain}{\pagestyle{fancy}}
   - \usepackage{titling}
   - \usepackage{setspace}
+  - \usepackage{parskip}
 ---
-
-\newpage
 \newcommand{\changefont}{%
     \fontsize{16}{9}\selectfont
 }
 
+\newpage
+
 \begin{figure}[tph]
-\begin{minipage}[t]{0.4\textwidth\vspace{-\topskip}}
+\begin{minipage}[t]{0.3\textwidth\vspace{-\topskip}}
+  \centering
+  \vspace{0cm}
+\includegraphics[width=5.0cm]{images/gperales.jpg}
+  \section{PERFIL\vspace{-0.35em}}
   \justify
 
-\includegraphics[width=3.0cm]{images/gperales.jpg}
-\section{PERFIL\vspace{-0.35em}}
+Estoy enfocado a las áreas de Hidrología, Hidráulica y Recursos Hídricos, tengo 
+buen desempeño para el trabajo en equipo y la mejora continua.
+\setlength\parskip{1em}
+
+Tengo capacidades técnicas en: Hidrología, procesando y analizando datos usando R,
+Python y Excel; En Recursos hídricos, recopilando y procesando información hídrica;
+en Hidráulica, desarrollando modelos de simulación; en liderazgo y trabajo en equipo,
+dirigiendo y formando parte de grupos de trabajo durante la universidad y en
+el trabajo.
+\setlength\parskip{1em}
+
+Uno de mis objetivos es cursar la maestría de Hidroinformática en Delft (Holanda),
+para lo cual llevo una preparación autodidacta técnica, cultural y bilingüe.
+
+  \subsection{IDIOMAS\vspace{-0.35em}}
+
+\textcolor{black}{\textbf{Español}}\vspace{1.3mm}\vfill
+- Idioma nativo
+\textcolor{black}{\textbf{Quechua}}\vspace{1.3mm}\vfill
+- Básico (en proceso)
+\textcolor{black}{\textbf{Inglés}}\vspace{1.3mm}\vfill
+- Básico (en proceso)
 
   \end{minipage}
   %
   \hfill
   %
-  \begin{minipage}[t]{0.6\textwidth\vspace{-\topskip}}
+  \begin{minipage}[t]{0.65\textwidth\vspace{-\topskip}}
   \justify
 
 \section{TITULACIÓN UNIVERSITARIA\vspace{-0.35em}}
 
-\textcolor{black}{\textbf{Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020}}\vspace{1.3mm}\vfill
-\textcolor{black}{\textbf{Formación en Ing. Mecánica de Fluidos | Julio - 2019}}\vspace{1.3mm}\vfill
-Universidad Nacional Mayor de San Marcos (UNMSM)\vspace{0.6mm}\vfill
-- Formación en Recursos Hídricos, Hidrología e Hidráulica.\vspace{0.6mm}\vfill
+\textcolor{black}{\textbf{Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020}}
+\vspace{1.3mm}\vfill
+\textcolor{black}{\textbf{Formación en Ing. Mecánica de Fluidos | Julio - 2019}}
+\vspace{1.3mm}\vfill
+Universidad Nacional Mayor de San Marcos (UNMSM)
+\vspace{0.6mm}\vfill
+- Formación en Recursos Hídricos, Hidrología e Hidráulica.
+\vspace{0.6mm}\vfill
 
 \section{FORMACIÓN COMPLEMENTARIA\vspace{-0.35em}}
 
-- Hidrología General: 40 h | Agencia Nacional de Aguas (MOOC, Brasil)\vspace{0.7mm}\vfill
-- Especialización en R: Básico, Intermedio y Avanzado: 84 h | SDC\vspace{0.7mm}\vfill
-- Modelos de Gestión de Recursos Hídricos: WEAP Y MODFLOW: 40 h | TYPSA Perú.\vspace{0.7mm}\vfill
-- Dipl. de Mod. Hidráulico e Hidrológico: 120 h | CIDHMA.\vspace{0.7mm}\vfill
-- Gestión de Proy. con Metodologías Agiles: 40 h | Universitas Telefónica (MOOC, España)\vspace{0.7mm}
+- Hidrología General: 40 h| Agencia Nacional de Aguas| MOOC, Brasil\vspace{0.7mm}\vfill
+- Especialización en R: Básico, Intermedio y Avanzado: 84 h| SDC\vspace{0.7mm}\vfill
+- Modelos de Gestión de Recursos Hídricos: WEAP Y MODFLOW: 40 h| TYPSA\vspace{0.7mm}\vfill
+- Dipl. de Mod. Hidráulico e Hidrológico: 120 h| CIDHMA\vspace{0.7mm}\vfill
+- Gestión de Proy. con Metodologías Agiles: 40 h| Univ. Telefónica| MOOC, España\vspace{0.7mm}
 
 \section{SKILLS\vspace{-0.35em}}
 
@@ -156,36 +185,51 @@ alfa
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{SNC-LAVALIN, Perú}}
 \vspace{1mm}\vfill
-Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para caracterización climática, modelamiento hidrológico y análisis de máximas avenidas, análisis de sequías, planes de gestión hídrica, uso de lenguajes de programación (R y Python) para automatizar actividades, y análisis de datos espaciales y no espaciales.
+Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para
+caracterización climática, modelamiento hidrológico y análisis de máximas avenidas,
+análisis de sequías, planes de gestión hídrica, uso de lenguajes de programación
+(R y Python) para automatizar actividades, y análisis de datos espaciales y no
+espaciales.
 \vspace{5mm}
 
 \textcolor{black}{\textbf{INGENIERO JR. EN RECURSOS HÍDRICOS, ÁREA DE GEOINGENIERÍA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{SRK Consulting, Perú}}
 \vspace{1mm}\vfill
-Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para caracterización climática, modelamiento hidrológico y análisis de máximas avenidas, análisis de sequías, planes de gestión hídrica, uso de herramientas SIG para el análisis geoespacial y desarrollo de mapas temáticos, modelamiento de balance de aguas en GoldSim, uso de lenguajes de programación (R y Python) para automatizar actividades, y análisis de datos espaciales y no espaciales.
+Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para
+caracterización climática, modelamiento hidrológico y análisis de máximas avenidas,
+análisis de sequías, planes de gestión hídrica, uso de herramientas SIG para el
+análisis geoespacial y desarrollo de mapas temáticos, modelamiento de balance de
+aguas en GoldSim, uso de lenguajes de programación (R y Python) para automatizar
+actividades, y análisis de datos espaciales y no espaciales.
 \vspace{5mm}
 
 \textcolor{black}{\textbf{ASISTENTE DE INGENIERÍA, DPTO DE INGENIERÍA DEL AGUA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{TYPSA, Perú}}
 \vspace{1mm}\vfill
-Pre-proceso, proceso y análisis de datos hidroclimáticos para modelamiento hidrológico, eventos extremos, planes de gestión hídrica, Dibujante CAD de planos hidráulicos, abastecimiento y drenaje, SIG para el análisis, proceso geoespacial en hidráulica e hidrología y creación de mapas.
+Pre-proceso, proceso y análisis de datos hidroclimáticos para modelamiento
+hidrológico, eventos extremos, planes de gestión hídrica, Dibujante CAD de planos
+hidráulicos, abastecimiento y drenaje, SIG para el análisis, proceso geoespacial
+en hidráulica e hidrología y creación de mapas.
 \vspace{5mm}
 
 \textcolor{black}{\textbf{ASISTENTE EN RECURSOS HÍDRICOS}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{TYPSA, Perú}}
 \vspace{1mm}\vfill
-Pre-proceso de datos hidroclimáticos para modelamiento: hidrológico, eventos extremos y
-recursos hídricos, redacción y revisión parcial de informes y anexos, procesamiento geoespacial usando herramientas SIG
+Pre-proceso de datos hidroclimáticos para modelamiento: hidrológico, eventos
+extremos y recursos hídricos, redacción y revisión parcial de informes y anexos,
+procesamiento geoespacial usando herramientas SIG
 \vspace{5mm}
 
 \textcolor{black}{\textbf{VOLUNTARIO}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{CIDIMF-UNMSM, Perú}}
 \vspace{1mm}\vfill
-Desarrollé programas para Hidrología Estadística usando R, Python y MATLAB, Participé en la planeación y desarrollo de un sistema de riego automatizado, brinde capacitación en Hidrología y afines.
+Desarrollé programas para Hidrología Estadística usando R, Python y MATLAB,
+Participé en la planeación y desarrollo de un sistema de riego automatizado,
+brinde capacitación en Hidrología y afines.
 
 \section{PRINCIPALES PROYECTOS\vspace{-0.35em}}
 
@@ -193,23 +237,25 @@ Desarrollé programas para Hidrología Estadística usando R, Python y MATLAB, P
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{\emph{U.M. Ruta de Cobre}}}
 \vspace{1mm}\vfill
-Soporte en el aforo de ríos y quebradas, toma de muestras de sedimentos y agua en múltiples
-puntos de la microcuenca Chaucha (Ecuador).
+Soporte en el aforo de ríos y quebradas, toma de muestras de sedimentos y agua
+en múltiples puntos de la microcuenca Chaucha (Ecuador).
 \vspace{5mm}
 
 \textcolor{black}{\textbf{Paquete IdeamR | COLOMBIA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{\emph{Software para la automatización de procesos hidrológicos}}}
 \vspace{1mm}\vfill
-ideamR es un paquete desarrollado en R para el manejo de datos hidrometeorológicos de DHIME
-(IDEAM, Colombia). DHIME es un Sistema de Información para el manejo de datos hidrológicos y meteorológicos de Colombia. Enlace: https://github.com/GeomarPerales/ideamR
+ideamR es un paquete desarrollado en R para el manejo de datos hidrometeorológicos
+de DHIME(IDEAM, Colombia). DHIME es un Sistema de Información para el manejo de
+datos hidrológicos y meteorológicos de Colombia. Enlace: https://github.com/GeomarPerales/ideamR
 \vspace{5mm}
 
 \textcolor{black}{\textbf{RPisco | PERÚ}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{\emph{Software para la automatización de procesos hidrológicos}}}
 \vspace{1mm}\vfill
-RPisco es un paquete desarrollado en R con herramientas para extraer y manipular datos climáticos de PISCO (SENAMHI, Perú). Enlace: [RPisco](https://github.com/GeomarPerales/RPisco).
+RPisco es un paquete desarrollado en R con herramientas para extraer y manipular
+datos climáticos de PISCO (SENAMHI, Perú). Enlace: [RPisco](https://github.com/GeomarPerales/RPisco).
 
   \end{minipage}
 \end{figure}
