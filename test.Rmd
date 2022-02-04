@@ -1,40 +1,57 @@
 ---
-title: "Untitled"
-classoption: landscape
-output: 
+title: ""
+output:
   pdf_document:
-    number_sections: false
-    dev: pdf
-    keep_tex: false
-    toc: yes
+    latex_engine: xelatex
+geometry: top=0cm, margin=1.5cm, left=0.1cm
 header-includes:
-- \usepackage{fancyhdr}
-- \pagestyle{fancy}
-- \fancyhead[C]{center text}
-- \fancyhead[R]{right text}
+  - \usepackage{titlesec}
+  - \usepackage{fontspec}
+  - \usepackage{fancyhdr}
+  - \setmainfont{montserrat}
+  - \usepackage{xcolor}
+  - \usepackage[document]{ragged2e}
+  - \definecolor{p1}{HTML}{088A08}
+  - \definecolor{t1}{HTML}{088A08}
+  - \titleformat{\section}{\Large\fontsize{11}{13}\bfseries\sffamily\color{t1}}{}{0pt}{}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyhead[C]{\color{p1}{\changefont\textbf{Geomar Perales Apaico}}}
+  - \fancypagestyle{plain}{\pagestyle{fancy}}
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+\setlength{\headsep}{0.3cm}
+\newcommand{\changefont}{%
+    \fontsize{16}{9}\selectfont
+}
 
-## R Markdown
+\sffamily\fboxrule.1em\fboxsep1em
+\fcolorbox{black}{white}{\color{black}
+\begin{minipage}[c][24cm][t]{6cm}
+This is the textbox. 
+I would like a dark blue textbox with white writing.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+alfa
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+beta
 
-```{r cars}
-summary(cars)
-```
+gamma
+\end{minipage}}
 
-## Including Plots
+\hfill
 
-You can also embed plots, for example:
+ffgfgsd
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter
+gdsfsd
+g
 
+hd
+hdgf
+hd
+hgfdh
+gdfh
+g
+
+
+hdfghf

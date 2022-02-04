@@ -3,9 +3,7 @@ title: ""
 output:
   pdf_document:
     latex_engine: xelatex
-fontsize: 10
-mainfont: montserrat
-geometry: margin=1.8cm, left=0.1cm, right=0.1cm
+geometry: top=0cm, margin=1.5cm, left=0.1cm, right=1cm, bottom=1cm
 header-includes:
   - \usepackage{titlesec}
   - \usepackage{fontspec}
@@ -22,33 +20,49 @@ header-includes:
   - \fancyhead[C]{\color{p1}{\changefont\textbf{Geomar Perales Apaico}}}
   - \fancypagestyle{plain}{\pagestyle{fancy}}
 ---
+\newpage
 \setlength{\headsep}{0.3cm}
 \newcommand{\changefont}{%
     \fontsize{16}{9}\selectfont
 }
+\begin{figure}[tph]
+  \begin{minipage}{0.4\textwidth}
 
-# TITULACIÓN UNIVERSITARIA
+alfa
 
-##  Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020
+  \end{minipage}
+  %
+  \hfill
+  %
+  \begin{minipage}{0.6\textwidth}
+  \justify
 
-##  Formación en Ing. Mecánica de Fluidos | Julio - 2019
+TITULACIÓN UNIVERSITARIA
 
-**Universidad Nacional Mayor de San Marcos**
+Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020
+
+Formación en Ing. Mecánica de Fluidos | Julio - 2019
+
+Universidad Nacional Mayor de San Marcos
 
 Formación en Recursos Hídricos, Hidrología e Hidráulica.
 
-# FORMACIÓN COMPLEMENTARIA
+FORMACIÓN COMPLEMENTARIA
 
 * Hidrología General: 40 h | Agencia Nacional de Aguas (MOOC, Brasil)
+
 * Especialización en R: Básico, Intermedio y Avanzado: 84 h | SDC
+
 * Modelos de Gestión de Recursos Hídricos en 5 Cuencas Hidrográficas del Perú: WEAP Y MODFLOW: 40 h | TYPSA Perú.
+
 * Dipl. de Mod. Hidráulico e Hidrológico: 120 h | CIDHMA.
+
 * Gestión de Proy. con Metodologías Agiles: 40 h | Universitas Telefónica (MOOC, España)
 
-# SKILLS
 
-## MODELAMIENTO
-```{r, echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44}
+\textcolor{black}{\textbf{MODELAMIENTO}}
+
+```{r, echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44, fig.align='center'}
 library(ggplot2)
 skill.mod <- (c("WEAP", "WEAP", "IBER", "IBER", "HecRAS", "HecRAS",
                "GoldSim", "GoldSim", "HEC-HMS", "HEC-HMS"))
@@ -71,8 +85,9 @@ ggplot(data = df.mod, aes(x = skill, y = idx, fill = skill.idx)) +
         aspect.ratio = 1.5/1) + facet_grid(space = "free")
 ```
 
-## CAD Y SIG
-```{r, echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44}
+\textcolor{black}{\textbf{CAD Y SIG}}
+
+```{r , echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44, fig.align='center'}
 library(ggplot2)
 skill.sig <- (c("AutoCAD", "AutoCAD", "Civil 3D", "Civil 3D", "Python para SIG",
                 "Python para SIG", "QGIS", "QGIS", "ArcGIS", "ArcGIS"))
@@ -95,9 +110,8 @@ ggplot(data = df.sig, aes(x = skill, y = idx, fill = skill.idx)) +
         aspect.ratio = 1.5/1) + facet_grid(space = "free")
 ```
 
-## ESTADÍSTICA Y LENG. DE PROGRAMACIÓN
-```{r, echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44}
-library(ggplot2)
+\textcolor{black}{\textbf{ESTADÍSTICA Y LENG. DE PROGRAMACIÓN}}
+```{r, echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44, fig.align='center'}
 skill.est <- c("HYDROGNOMON", "HYDROGNOMON", "PAST", "PAST", "HYDRACCESS",
                 "HYDRACCESS", "R/PYTHON", "R/PYTHON")
 skill.idx <- c("p", "t", "p", "t", "p", "t", "p", "t")
@@ -118,50 +132,57 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
         aspect.ratio = 1.5/1) + facet_grid(space = "free")
 ```
 
-\newpage
-# EXPERIENCIA PROFESIONAL
 
-### ESPECIALISTA JR. EN RECURSOS HÍDRICOS, ÁREA DE CIENCIAS DEL AGUA
+  \end{minipage}
+\end{figure}
+
+\pagebreak
+\newpage
+\justify
+
+EXPERIENCIA PROFESIONAL
+
+ESPECIALISTA JR. EN RECURSOS HÍDRICOS, ÁREA DE CIENCIAS DEL AGUA
 
 \textcolor{darkgray}{\textbf{SNC-LAVALIN, Perú}}
 
 Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para caracterización climática, modelamiento hidrológico y análisis de máximas avenidas, análisis de sequías, planes de gestión hídrica, uso de lenguajes de programación (R y Python) para automatizar actividades, y análisis de datos espaciales y no espaciales.
 
-### INGENIERO JR. EN RECURSOS HÍDRICOS, ÁREA DE GEOINGENIERÍA
+INGENIERO JR. EN RECURSOS HÍDRICOS, ÁREA DE GEOINGENIERÍA
 
 \textcolor{darkgray}{\textbf{SRK Consulting, Perú}}
 
 Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para caracterización climática, modelamiento hidrológico y análisis de máximas avenidas, análisis de sequías, planes de gestión hídrica, uso de herramientas SIG para el análisis geoespacial y desarrollo de mapas temáticos, modelamiento de balance de aguas en GoldSim, uso de lenguajes de programación (R y Python) para automatizar actividades, y análisis de datos espaciales y no espaciales.
 
-### ASISTENTE DE INGENIERÍA, DPTO DE INGENIERÍA DEL AGUA
+ASISTENTE DE INGENIERÍA, DPTO DE INGENIERÍA DEL AGUA
 
 \textcolor{darkgray}{\textbf{TYPSA, Perú}}
 
 Pre-proceso, proceso y análisis de datos hidroclimáticos para modelamiento hidrológico, eventos extremos, planes de gestión hídrica, Dibujante CAD de planos hidráulicos, abastecimiento y drenaje, SIG para el análisis, proceso geoespacial en hidráulica e hidrología y creación de mapas.
 
-### ASISTENTE EN RECURSOS HÍDRICOS
+ASISTENTE EN RECURSOS HÍDRICOS
 
 \textcolor{darkgray}{\textbf{TYPSA, Perú}}
 
 Pre-proceso de datos hidroclimáticos para modelamiento: hidrológico, eventos extremos y
 recursos hídricos, redacción y revisión parcial de informes y anexos, procesamiento geoespacial usando herramientas SIG
 
-### VOLUNTARIO
+VOLUNTARIO
 
 \textcolor{darkgray}{\textbf{CIDIMF-UNMSM, Perú}}
 
 Desarrollé programas para Hidrología Estadística usando R, Python y MATLAB, Participé en la planeación y desarrollo de un sistema de riego automatizado, brinde capacitación en Hidrología y afines.
 
-# PRINCIPALES PROYECTOS
+PRINCIPALES PROYECTOS
 
-### CAMPAÑA DE AFORO, MUESTREO DE SEDIMENTOS Y AGUA | ECUADOR
+CAMPAÑA DE AFORO, MUESTREO DE SEDIMENTOS Y AGUA | ECUADOR
 
 \textcolor{darkgray}{\textbf{\emph{U.M. Ruta de Cobre}}}
 
 Soporte en el aforo de ríos y quebradas, toma de muestras de sedimentos y agua en múltiples
 puntos de la microcuenca Chaucha (Ecuador).
 
-### Paquete IdeamR | COLOMBIA
+Paquete IdeamR | COLOMBIA
 
 \textcolor{darkgray}{\textbf{\emph{Software para la automatización de procesos hidrológicos}}}
 
@@ -171,61 +192,61 @@ y meteorológicos de Colombia. Enlace: https://github.com/GeomarPerales/ideamR
 
 \newpage
 
-### RPisco | PERÚ
+RPisco | PERÚ
 
 \textcolor{darkgray}{\textbf{\emph{Software para la automatización de procesos hidrológicos}}}
 
 RPisco es un paquete desarrollado en R con herramientas para extraer y manipular datos climáticos de PISCO (SENAMHI, Perú). Enlace: [RPisco](https://github.com/GeomarPerales/RPisco).
 
-### ESTUDIO HIDROLÓGICO Y ANÁLISIS DE MÁXIMAS AVENIDAS | COLOMBIA
+ESTUDIO HIDROLÓGICO Y ANÁLISIS DE MÁXIMAS AVENIDAS | COLOMBIA
 
 \textcolor{darkgray}{\textbf{\emph{U.M. Quinchia y La Perla}}}
 
 Recopilación, pre-proceso, proceso y análisis de datos hidroclimáticos para la caracterización hidroclimática, y análisis de máximas avenidas.
 
-### RECOPILACIÓN Y PRE-PROCESO DE INFORMACIÓN CLIMÁTICA | UZBEKISTÁN
+RECOPILACIÓN Y PRE-PROCESO DE INFORMACIÓN CLIMÁTICA | UZBEKISTÁN
 
 \textcolor{darkgray}{\textbf{\emph{Energía Solar}}}
 
 Búsqueda, recopilación y proceso de información hidroclimática en bases de datos extranjeras
 (en inglés). Revisión y análisis de la bibliografía (Papers, informes y otros, en inglés).
 
-### PRE-PROCESO Y ANÁLISIS DE PRECIPITACIÓN MAXIMA | PERÚ
+PRE-PROCESO Y ANÁLISIS DE PRECIPITACIÓN MAXIMA | PERÚ
 
 \textcolor{darkgray}{\textbf{\emph{Construcción del reemplazo del Pte. San Francisco en Ayacucho}}}
 
 Responsable del pre-proceso, proceso y análisis de precipitación máxima de 24 horas de diversas
 fuentes de información para el estudio de máximas avenidas.
 
-### ENTREGA DEL 4° INFORME E INFORME FINAL DE RECURSOS HÍDRICOS | PERÚ
+ENTREGA DEL 4° INFORME E INFORME FINAL DE RECURSOS HÍDRICOS | PERÚ
 
 \textcolor{darkgray}{\textbf{\emph{Gestión de Recursos Hídricos de 5 Cuencas Hidrográficas}}}
 
 Responsable de la redacción parcial, revisión y entrega del Informe de la Cuenca Nanay,
 planeamiento, gestión, preparación y entrega del Informe más anexos respectivos.
 
-### MODELACIÓN HIDROLÓGICA | PERÚ
+MODELACIÓN HIDROLÓGICA | PERÚ
 
 \textcolor{darkgray}{\textbf{\emph{Plan Maestro de drenaje pluvial de Piura}}}
 
 Soporte en Modelación Hidrológica, geoprocesamiento de información pluviométrica, modelación
 de caudales, delimitación de cuencas urbanas, dibujante SIG.
 
-### PRE-PROCESO Y ANÁLISIS DE PRECIPITACIÓN MAXIMA | G | PERÚ
+PRE-PROCESO Y ANÁLISIS DE PRECIPITACIÓN MAXIMA | G | PERÚ
 
 \textcolor{darkgray}{\textbf{\emph{Gestión de Recursos Hídricos de 5 Cuencas Hidrográficas}}}
 
 Responsable del Pre-proceso y proceso de precipitación máxima de 24 horas para el estudio de
 máximas avenidas del Proyecto.
 
-### PROCESO DE INFORMACIÓN DE DEMANDAS HÍDRICAS | G | PERÚ
+PROCESO DE INFORMACIÓN DE DEMANDAS HÍDRICAS | G | PERÚ
 
 \textcolor{darkgray}{\textbf{\emph{Gestión de Recursos Hídricos de 5 Cuencas Hidrográficas}}}
 
 Responsable de la coordinación, gestión y organización de equipos para el pre-proceso de
 demandas hídricas, proceso y generación de bases de datos de demandas hídricas.
 
-### PRE-PROCESO DE INFORMACIÓN HIDROCLIMÁTICA | G | PERÚ
+PRE-PROCESO DE INFORMACIÓN HIDROCLIMÁTICA | G | PERÚ
 
 \textcolor{darkgray}{\textbf{\emph{Gestión de Recursos Hídricos de 5 Cuencas Hidrográficas}}}
 
@@ -234,9 +255,9 @@ para el modelamiento hidrológico y de recursos hídricos de las cuencas del est
 
 \newpage
 
-# ACTIVIDADES DE DIVULGACIÓN
+ACTIVIDADES DE DIVULGACIÓN
 
-### EXPOSITOR
+EXPOSITOR
 
 \textcolor{darkgray}{\textbf{Empresa HelpGIS, Perú}}
 
@@ -248,16 +269,16 @@ Webinar “Rompiendo Mitos en R aplicado a Hidrología”, 05-10-20.
 
 Webinar “R aplicado a Hidrología”, 29-09-20
 
-# ASOCIACIONES TÉCNICAS
+ASOCIACIONES TÉCNICAS
 
 \textcolor{darkgray}{\textbf{CIDIMF-UNMSM, Perú}}
 
-### PRESIDENTE
+PRESIDENTE
 
 
 Dirección y gestión de diversas actividades de: divulgación, capacitación y orientación en temas
 de Recursos Hídricos a los miembros del Grupo Estudiantil CIDIMF y externos
 
-### VOLUNTARIO
+VOLUNTARIO
 
 Colabore en la gestión, organización y divulgación de eventos orientados a los Recursos Hídricos, desarrollé habilidades de liderazgo y participe en multiples actividades de divulgación.

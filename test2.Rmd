@@ -1,0 +1,71 @@
+---
+title: ""
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: top=0cm, margin=1.5cm, left=0.1cm, right=1cm
+header-includes:
+  - \usepackage{titlesec}
+  - \usepackage{fontspec}
+  - \usepackage{fancyhdr}
+  - \setmainfont{montserrat}
+  - \usepackage{xcolor}
+  - \usepackage{array}
+  - \usepackage[document]{ragged2e}
+  - \definecolor{p1}{HTML}{088A08}
+  - \definecolor{t1}{HTML}{088A08}
+  - \titleformat{\section}{\Large\fontsize{11}{13}\bfseries\sffamily\color{t1}}{}{0pt}{}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyhead[C]{\color{p1}{\changefont\textbf{Geomar Perales Apaico}}}
+  - \fancypagestyle{plain}{\pagestyle{fancy}}
+---
+
+\setlength{\headsep}{0.3cm}
+\newcommand{\changefont}{%
+    \fontsize{16}{9}\selectfont
+}
+
+\begin{figure}[tph]
+  \begin{minipage}[c][22cm][t]{5cm}
+
+alfa
+
+  \end{minipage}
+  %
+  \hfill
+  %
+  \begin{minipage}[c][24cm][t]{13cm}
+  \justify
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+```{r ,echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44, fig.align='center'}
+library(ggplot2)
+skill.sig <- (c("AutoCAD", "AutoCAD", "Civil 3D", "Civil 3D", "Python para SIG",
+                "Python para SIG", "QGIS", "QGIS", "ArcGIS", "ArcGIS"))
+
+skill.idx <- c("p", "t", "p", "t", "p", "t", "p", "t", "p", "t")
+idx <- c(5, 3, 5, 3, 4, 4, 3.5, 4.5, 3, 5)
+
+df.sig <- data.frame(skill = skill.sig, skill.idx = skill.idx, idx = idx)
+df.sig$skill <- factor(df.sig$skill, levels = unique(df.sig$skill))
+
+ggplot(data = df.sig, aes(x = skill, y = idx, fill = skill.idx)) +
+  geom_bar(stat="sum", width = 0.35, position = "stack") +
+  theme_minimal() + coord_flip() +
+  scale_fill_manual(values = c("gray79", "chartreuse3")) +
+  theme(legend.position = "none",
+        axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        aspect.ratio = 1.5/1) + facet_grid(space = "free")
+```
+  
+  \end{minipage}
+\end{figure}
