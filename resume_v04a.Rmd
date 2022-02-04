@@ -52,14 +52,36 @@ el trabajo.
 Uno de mis objetivos es cursar la maestría de Hidroinformática en Delft (Holanda),
 para lo cual llevo una preparación autodidacta técnica, cultural y bilingüe.
 
-  \subsection{IDIOMAS\vspace{-0.35em}}
+  \subsection{IDIOMAS\vspace{0em}}
 
-\textcolor{black}{\textbf{Español}}\vspace{1.3mm}\vfill
-- Idioma nativo
-\textcolor{black}{\textbf{Quechua}}\vspace{1.3mm}\vfill
-- Básico (en proceso)
-\textcolor{black}{\textbf{Inglés}}\vspace{1.3mm}\vfill
-- Básico (en proceso)
+\textcolor{darkgray}{\textbf{Español - nativo}\vfill\vspace{0.1mm}}
+\textcolor{darkgray}{\textbf{Quechua - Básico (en proceso)}\vfill\vspace{0.1mm}}
+\textcolor{darkgray}{\textbf{Inglés- Básico (en proceso)}\vfill\vspace{0.1mm}}
+
+  \subsection{REFERENCIAS\vspace{0em}}
+  
+Ing. Gustavo Atúncar
+
+Especialista de Hidrología e Hidráulica
+
+Cel. N° 939272465
+
+Ing. Yonatan Bustamante
+
+Especialista de Hidrología e Hidráulica
+
+Cel. N° 982267689
+
+Ing. Elvis Castro
+Jefe del área de Recursos Hídricos, SRK
+Cel. N° 956302303
+
+Ing. Michel Cueva
+Especialista de Hidrología e Hidráulica
+Cel. N°  944120064
+
+
+\vspace{1mm}
 
   \end{minipage}
   %

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 18:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,15 +1134,39 @@ LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 118.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 132.
+(hyperref)                removing `\new@ifnextchar' on input line 122.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+[]\TU/montserrat(0)/m/n/10 Especialista de Hidrología e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[]\TU/montserrat(0)/m/n/10 Especialista de Hidrología e
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 136--139
+\TU/montserrat(0)/m/n/10 Recursos Hídricos, SRK Cel. N°
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 140--143
+\TU/montserrat(0)/m/n/10 Hidrología e Hidráulica Cel. N°
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 143.
+(hyperref)                removing `\new@ifnextchar' on input line 154.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 151.
+(hyperref)                removing `\new@ifnextchar' on input line 165.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 173.
 
 File: resume_v04a_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type p
 df)
@@ -1153,10 +1177,70 @@ df)
 File: resume_v04a_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type p
 df)
 <use resume_v04a_files/figure-latex/unnamed-chunk-3-1.pdf>
+
+LaTeX Warning: Float too large for page by 66.68918pt on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 207.
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 213--219
+[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
+os hidroclimáticos para caracterización
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 224--231
+[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
+os hidroclimáticos para caracterización
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 259.
+
+LaTeX Font Info:    Font shape `TU/montserrat(0)/b/it' will be
+(Font)              scaled to size 10.0pt on input line 263.
+
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 196--286
+[][]  []  
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 329--332
+[]\TU/montserrat(0)/m/n/10 Responsable de la redacción parcial, revisión y entr
+ega del Informe de la Cuenca Nanay,
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 337--340
+[]\TU/montserrat(0)/m/n/10 Soporte en Modelación Hidrológica, geoprocesamiento 
+de información pluviométrica, mod-
+ []
+
+
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 291--366
+[][]  []  
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 399.
+
+
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 370--415
+[][]  []  
+ []
+
 LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 171.
+(Font)              scaled to size 16.0pt on input line 417.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 171.
+(Font)              scaled to size 16.0pt on input line 417.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.99203pt, for example:
@@ -1165,66 +1249,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.99203pt}.
 
-[1
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 185.
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 191--197
-[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
-os hidroclimáticos para caracterización
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 202--209
-[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
-os hidroclimáticos para caracterización
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 237.
-
-LaTeX Font Info:    Font shape `TU/montserrat(0)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 241.
-
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 174--264
-[][]  []  
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 307--310
-[]\TU/montserrat(0)/m/n/10 Responsable de la redacción parcial, revisión y entr
-ega del Informe de la Cuenca Nanay,
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 315--318
-[]\TU/montserrat(0)/m/n/10 Soporte en Modelación Hidrológica, geoprocesamiento 
-de información pluviométrica, mod-
- []
-
-
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 269--344
-[][]  []  
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 360.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 377.
-
-
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 348--393
-[][]  []  
- []
-
+[1]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.99203pt, for example:
@@ -1253,12 +1278,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4] (./resume_v04a.aux)
 Package rerunfilecheck Info: File `resume_v04a.out' has not changed.
-(rerunfilecheck)             Checksum: D67DD8B0EF18C42F89D537D80C5DDA3E;1542.
+(rerunfilecheck)             Checksum: E9223086D5C518CA669D5C9E9A0F34C2;1646.
  ) 
 Here is how much of TeX's memory you used:
  18591 strings out of 478190
  348386 string characters out of 5853074
- 829337 words of memory out of 5000000
+ 841337 words of memory out of 5000000
  38976 multiletter control sequences out of 15000+600000
  470023 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
