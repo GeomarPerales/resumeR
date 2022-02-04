@@ -21,19 +21,17 @@ header-includes:
   - \fancyhead[C]{\color{p1}{\changefont\textbf{Geomar Perales Apaico}}}
   - \fancypagestyle{plain}{\pagestyle{fancy}}
   - \usepackage{titling}
+  - \usepackage{setspace}
 ---
 
 \newpage
-\setlength{\headsep}{0.5cm}
+\setlength{\headsep}{0.6cm}
 
 \newcommand{\changefont}{%
     \fontsize{16}{9}\selectfont
 }
 \begin{figure}[tph]
   \begin{minipage}{0.4\textwidth}
-
-
-\graphicspath{ {c:/usimages/} }
 
 \section{PERFIL}
 
