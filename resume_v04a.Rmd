@@ -42,7 +42,7 @@ header-includes:
   \begin{minipage}{0.6\textwidth}
   \justify
   
-\section{TITULACIÓN UNIVERSITARIA\vspace{-0.1em}}
+\section{TITULACIÓN UNIVERSITARIA\vspace{-0.15em}}
 
 \textcolor{black}{\textbf{Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020}}
 
@@ -52,7 +52,7 @@ Universidad Nacional Mayor de San Marcos (UNMSM)
 
 Formación en Recursos Hídricos, Hidrología e Hidráulica.
 
-\section{FORMACIÓN COMPLEMENTARIA\vspace{-0.1em}}
+\section{FORMACIÓN COMPLEMENTARIA\vspace{-0.15em}}
 
 * Hidrología General: 40 h | Agencia Nacional de Aguas (MOOC, Brasil)
 
@@ -65,7 +65,7 @@ Formación en Recursos Hídricos, Hidrología e Hidráulica.
 * Gestión de Proy. con Metodologías Agiles: 40 h | Universitas Telefónica (MOOC, España)
 
 
-\section{SKILLS\vspace{-0.3em}}
+\section{SKILLS\vspace{-0.15em}}
 
 \textcolor{black}{\textbf{MODELAMIENTO}}
 
@@ -156,7 +156,7 @@ alfa
   \begin{minipage}{0.83\textwidth}
   \justify
 
-\section{EXPERIENCIA PROFESIONAL\vspace{-0.3em}}
+\section{EXPERIENCIA PROFESIONAL\vspace{-0.15em}}
 
 \textcolor{black}{\textbf{ESPECIALISTA JR. EN RECURSOS HÍDRICOS, ÁREA DE CIENCIAS DEL AGUA}}
 
@@ -193,7 +193,7 @@ recursos hídricos, redacción y revisión parcial de informes y anexos, procesa
 
 Desarrollé programas para Hidrología Estadística usando R, Python y MATLAB, Participé en la planeación y desarrollo de un sistema de riego automatizado, brinde capacitación en Hidrología y afines.
 
-\section{PRINCIPALES PROYECTOS\vspace{-0.3em}}
+\section{PRINCIPALES PROYECTOS\vspace{-0.15em}}
 
 \textcolor{black}{\textbf{CAMPAÑA DE AFORO, MUESTREO DE SEDIMENTOS Y AGUA | ECUADOR}}
 
@@ -306,7 +306,7 @@ alfa
   \begin{minipage}{0.83\textwidth}
   \justify
 
-\section{ACTIVIDADES DE DIVULGACIÓN\vspace{-0.3em}}
+\section{ACTIVIDADES DE DIVULGACIÓN\vspace{-0.15em}}
 
 \textcolor{black}{\textbf{EXPOSITOR}}
 
@@ -320,7 +320,7 @@ Webinar “Rompiendo Mitos en R aplicado a Hidrología”, 05-10-20.
 
 Webinar “R aplicado a Hidrología”, 29-09-20
 
-\section{ASOCIACIONES TÉCNICAS\vspace{-0.3em}}
+\section{ASOCIACIONES TÉCNICAS\vspace{-0.15em}}
 
 \textcolor{darkgray}{\textbf{CIDIMF-UNMSM, Perú}}
 
