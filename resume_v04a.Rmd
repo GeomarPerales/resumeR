@@ -30,41 +30,17 @@ header-includes:
 }
 
 \begin{figure}[tph]
-\begin{minipage}[t]{0.4\textwidth}
+\begin{minipage}[t]{0.4\textwidth\vspace{-\topskip}}
   \justify
 
+\includegraphics[width=3.0cm]{images/gperales.jpg}
 \section{PERFIL\vspace{-0.35em}}
-\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-f\vspace{1.3mm}\vfill
-
 
   \end{minipage}
   %
   \hfill
   %
-  \begin{minipage}[t]{0.6\textwidth}
+  \begin{minipage}[t]{0.6\textwidth\vspace{-\topskip}}
   \justify
 
 \section{TITULACIÓN UNIVERSITARIA\vspace{-0.35em}}
@@ -163,7 +139,7 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
 \newpage
 
 \begin{figure}[tph]
-  \begin{minipage}[t]{0.17\textwidth}
+  \begin{minipage}[t]{0.17\textwidth\vspace{-\topskip}}
 
 alfa
 
@@ -171,7 +147,7 @@ alfa
   %
   \hfill
   %
-  \begin{minipage}[t]{0.83\textwidth}
+  \begin{minipage}[t]{0.83\textwidth\vspace{-\topskip}}
   \justify
 
 \section{EXPERIENCIA PROFESIONAL\vspace{-0.35em}}
@@ -241,7 +217,7 @@ RPisco es un paquete desarrollado en R con herramientas para extraer y manipular
 \pagebreak
 \newpage
 \begin{figure}[tph]
-  \begin{minipage}{0.17\textwidth}
+  \begin{minipage}[t]{0.17\textwidth\vspace{-\topskip}}
 
 alfa
 
@@ -249,7 +225,7 @@ alfa
   %
   \hfill
   %
-  \begin{minipage}{0.83\textwidth}
+  \begin{minipage}[t]{0.83\textwidth\vspace{-\topskip}}
   \justify
 
 \textcolor{black}{\textbf{ESTUDIO HIDROLÓGICO Y ANÁLISIS DE MÁXIMAS AVENIDAS | COLOMBIA}}
@@ -320,7 +296,7 @@ para el modelamiento hidrológico y de recursos hídricos de las cuencas del est
 \pagebreak
 \newpage
 \begin{figure}[tph]
-  \begin{minipage}{0.17\textwidth}
+  \begin{minipage}[t]{0.17\textwidth\vspace{-\topskip}}
 
 alfa
 
@@ -328,7 +304,7 @@ alfa
   %
   \hfill
   %
-  \begin{minipage}{0.83\textwidth}
+  \begin{minipage}[t]{0.83\textwidth\vspace{-\topskip}}
   \justify
 
 
