@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 11:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,8 +1029,8 @@ LaTeX Info: Redefining \nameref on input line 86.
 * \textheight=715.3022pt
 * \oddsidemargin=-69.42455pt
 * \evensidemargin=-69.42455pt
-* \topmargin=-387.488pt
-* \headheight=341.43306pt
+* \topmargin=-58.05495pt
+* \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
@@ -1073,8 +1073,20 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 8.5258pt on input line 99.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.08986pt on input line 99.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 106.
+
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 108.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 116.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 129.
+
 File: resume_v04a_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type p
 df)
 <use resume_v04a_files/figure-latex/unnamed-chunk-1-1.pdf>
@@ -1093,9 +1105,22 @@ LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 149.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 149.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.19203pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.19203pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
+
 [1
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 162.
+
+
 Underfull \hbox (badness 2150) in paragraph at lines 168--169
 []\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
 os hidroclimáticos para caracterización
@@ -1107,12 +1132,24 @@ Underfull \hbox (badness 2150) in paragraph at lines 175--176
 os hidroclimáticos para caracterización
  []
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 199.
+
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/it' will be
 (Font)              scaled to size 10.0pt on input line 203.
 
 Overfull \hbox (2.61998pt too wide) in paragraph at lines 151--222
 []$[]$  $[]$  
  []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.19203pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.19203pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
 
 [2]
 Underfull \hbox (badness 2111) in paragraph at lines 265--267
@@ -1131,22 +1168,47 @@ Overfull \hbox (2.61998pt too wide) in paragraph at lines 227--297
 []$[]$  $[]$  
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.19203pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.19203pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
+
 [3]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 312.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 326.
+
+
 Overfull \hbox (2.61998pt too wide) in paragraph at lines 301--340
 []$[]$  $[]$  
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.19203pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.19203pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
+
 [4] (./resume_v04a.aux)
 Package rerunfilecheck Info: File `resume_v04a.out' has not changed.
-(rerunfilecheck)             Checksum: 8BEF555F6BEAD7B284BAF82907380E76;1132.
+(rerunfilecheck)             Checksum: FFE438823D6B7A33F4FA76872A6D5A60;1342.
  ) 
 Here is how much of TeX's memory you used:
- 18627 strings out of 478190
- 349698 string characters out of 5853074
- 820473 words of memory out of 5000000
- 38998 multiletter control sequences out of 15000+600000
+ 18628 strings out of 478190
+ 349716 string characters out of 5853074
+ 820420 words of memory out of 5000000
+ 38999 multiletter control sequences out of 15000+600000
  471599 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,11n,122p,1200b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,11n,122p,1200b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume_v04a.pdf (4 pages).
