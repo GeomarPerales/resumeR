@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  3 FEB 2022 19:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  3 FEB 2022 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,7 +560,7 @@ uage=dflt;mapping=tex-text;"
 uage=dflt;+smcp;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 66.
+(Font)              scaled to size 10.0pt on input line 67.
 
 Package fontspec Info: Montserrat-Regular scale = 0.9999970935724355.
 
@@ -626,12 +626,12 @@ ipt=latn;language=dflt;+smcp;"
 :script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/montserrat(1)/m/n on input line 66.
+(Font)                  OT1/lmr/m/n --> TU/montserrat(1)/m/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/montserrat(1)/m/it on input line 66
+(Font)                  OT1/lmr/m/it --> TU/montserrat(1)/m/it on input line 67
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/montserrat(1)/b/n on input line 66.
+(Font)                  OT1/lmr/bx/n --> TU/montserrat(1)/b/n on input line 67.
 
 (c:/Users/LENOVO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
@@ -680,37 +680,44 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 \RaggedLeftParindent=\skip77
 \RaggedRightParindent=\skip78
 \JustifyingParindent=\skip79
+)
+(c:/Users/LENOVO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titling/titling.s
+ty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip80
+\thanksmargin=\skip81
+\droptitle=\skip82
 ) (./resume_v04a.aux)
 \openout1 = `resume_v04a.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 83.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 83.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 83.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 83.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 86.
 
 Package fontspec Info: latinmodern-math scale = 1.21809382534226.
 
@@ -739,7 +746,7 @@ allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 12.18094pt on input line 83.
+(Font)              scaled to size 12.18094pt on input line 86.
 
 Package fontspec Info: latinmodern-math scale = 1.21809382534226.
 
@@ -778,17 +785,17 @@ f]/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.18094pt on input line 83.
+(Font)              scaled to size 12.18094pt on input line 86.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 83.
+(Font)              `operators' in the math version `normal' on input line 86.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 83.
+ line 86.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 83.
+(Font)              `operators' in the math version `bold' on input line 86.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 83.
+t line 86.
 
 Package fontspec Info: latinmodern-math scale = 1.21809382534226.
 
@@ -875,15 +882,15 @@ t=math;language=dflt;"
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 83.
+(Font)              `symbols' in the math version `normal' on input line 86.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 83.
+t line 86.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 83.
+(Font)              `symbols' in the math version `bold' on input line 86.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 83.
+t line 86.
 
 Package fontspec Info: latinmodern-math scale = 1.21809382534226.
 
@@ -953,22 +960,22 @@ t=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 8
-3.
+6.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 83.
+t line 86.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 83.
+(Font)              `largesymbols' in the math version `bold' on input line 86.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 83.
-LaTeX Info: Redefining \microtypecontext on input line 83.
-Package microtype Info: Applying patch `item' on input line 83.
-Package microtype Info: Applying patch `toc' on input line 83.
-Package microtype Info: Applying patch `eqnum' on input line 83.
+t line 86.
+LaTeX Info: Redefining \microtypecontext on input line 86.
+Package microtype Info: Applying patch `item' on input line 86.
+Package microtype Info: Applying patch `toc' on input line 86.
+Package microtype Info: Applying patch `eqnum' on input line 86.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 83.
+Package microtype Warning: Unable to apply patch `footnote' on input line 86.
 
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -979,7 +986,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `montserrat' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 86.
 
 (c:/Users/LENOVO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.
 sty
@@ -995,9 +1002,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
 (./resume_v04a.out) (./resume_v04a.out)
 \@outlinefile=\write3
 \openout3 = `resume_v04a.out'.
@@ -1036,30 +1043,34 @@ LaTeX Info: Redefining \nameref on input line 83.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package ragged2e Info: ABD: executing \RaggedRight on input line 83.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 86.
+LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 99.
+LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
+(Font)              scaled to size 13.0pt on input line 99.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.52666pt on input line 95.
+(Font)              scaled to size 8.52666pt on input line 101.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.09047pt on input line 95.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-5.
+(Font)              scaled to size 6.09047pt on input line 101.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+01.
 (c:/Users/LENOVO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.18216pt on input line 95.
+(Font)              scaled to size 12.18216pt on input line 101.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.52751pt on input line 95.
+(Font)              scaled to size 8.52751pt on input line 101.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.09108pt on input line 95.
+(Font)              scaled to size 6.09108pt on input line 101.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.17972pt on input line 95.
+(Font)              scaled to size 12.17972pt on input line 101.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.5258pt on input line 95.
+(Font)              scaled to size 8.5258pt on input line 101.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.08986pt on input line 95.
+(Font)              scaled to size 6.08986pt on input line 101.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 125.
+(Font)              scaled to size 10.0pt on input line 111.
 File: resume_v04a_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type p
 df)
 <use resume_v04a_files/figure-latex/unnamed-chunk-1-1.pdf>
@@ -1070,14 +1081,14 @@ File: resume_v04a_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type p
 df)
 <use resume_v04a_files/figure-latex/unnamed-chunk-3-1.pdf>
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 91--141
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 94--149
 []$[]$  $[]$  
  []
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 144.
+(Font)              scaled to size 16.0pt on input line 152.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 144.
+(Font)              scaled to size 16.0pt on input line 152.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 16.19203pt, for example:
@@ -1089,17 +1100,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ]
-LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 148.
-LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 148.
+LaTeX Font Info:    Font shape `TU/montserrat(0)/b/it' will be
+(Font)              scaled to size 10.0pt on input line 207.
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 153.
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+[]\TU/montserrat(0)/m/n/10 ideamR es un paquete desarrollado en R para el manej
+o de datos hidrometeo-
+ []
 
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 153.
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+\TU/montserrat(0)/m/n/10 rológicos de DHIME (IDEAM, Colombia). DHIME es un Sist
+ema de Información
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+\TU/montserrat(0)/m/n/10 para el manejo de datos hidrológicos y meteorológicos 
+de Colombia. Enlace:
+ []
+
+
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 155--220
+[]$[]$  $[]$  
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1109,17 +1133,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
 
-[2] (./resume_v04a.aux)
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.19203pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.19203pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.19203pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.19203pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
+
+[4] (./resume_v04a.aux)
 Package rerunfilecheck Info: File `resume_v04a.out' has not changed.
-(rerunfilecheck)             Checksum: C8BDE9881175874F64901BCABF54C1B0;567.
+(rerunfilecheck)             Checksum: 8BEF555F6BEAD7B284BAF82907380E76;1132.
  ) 
 Here is how much of TeX's memory you used:
- 18505 strings out of 478190
- 347190 string characters out of 5853074
- 816403 words of memory out of 5000000
- 38885 multiletter control sequences out of 15000+600000
- 471591 words of font info for 59 fonts, out of 8000000 for 9000
+ 18580 strings out of 478190
+ 348599 string characters out of 5853074
+ 819069 words of memory out of 5000000
+ 38955 multiletter control sequences out of 15000+600000
+ 471599 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,11n,122p,1200b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,11n,122p,1200b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume_v04a.pdf (2 pages).
+Output written on resume_v04a.pdf (4 pages).

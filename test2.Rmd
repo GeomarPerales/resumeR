@@ -26,7 +26,7 @@ header-includes:
 }
 
 \begin{figure}[tph]
-  \begin{minipage}[c][22cm][t]{5cm}
+  \begin{minipage}{0.4\textwidth}
 
 alfa
 
@@ -34,10 +34,10 @@ alfa
   %
   \hfill
   %
-  \begin{minipage}[c][24cm][t]{13cm}
+  \begin{minipage}{0.6\textwidth}
   \justify
 
-
+beta
   
   \end{minipage}
 \end{figure}
