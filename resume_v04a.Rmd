@@ -3,7 +3,7 @@ title: ""
 output:
   pdf_document:
     latex_engine: xelatex
-geometry: top=0cm, margin=1.5cm, left=0.1cm, right=1cm, bottom=1cm
+geometry: top=0cm, margin=1.8cm, left=0.1cm, right=1cm, bottom=1cm
 fontsize: 10pt
 header-includes:
   - \usepackage{titlesec}
@@ -21,11 +21,11 @@ header-includes:
   - \fancyhead[C]{\color{p1}{\changefont\textbf{Geomar Perales Apaico}}}
   - \fancypagestyle{plain}{\pagestyle{fancy}}
   - \usepackage{titling}
-  - \usepackage{graphicx}
 ---
 
 \newpage
 \setlength{\headsep}{0.5cm}
+
 \newcommand{\changefont}{%
     \fontsize{16}{9}\selectfont
 }
@@ -43,8 +43,7 @@ header-includes:
   %
   \begin{minipage}{0.6\textwidth}
   \justify
-
-
+  
 \section{TITULACIÓN UNIVERSITARIA}
 
 \textcolor{black}{\textbf{Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020}}
@@ -147,12 +146,8 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
 
 \pagebreak
 \newpage
-
-
-
-
 \begin{figure}[tph]
-  \begin{minipage}{0.2\textwidth}
+  \begin{minipage}{0.17\textwidth}
 
 alfa
 
@@ -160,7 +155,7 @@ alfa
   %
   \hfill
   %
-  \begin{minipage}{0.8\textwidth}
+  \begin{minipage}{0.83\textwidth}
   \justify
 
 \section{EXPERIENCIA PROFESIONAL}
@@ -216,21 +211,30 @@ puntos de la microcuenca Chaucha (Ecuador).
 ideamR es un paquete desarrollado en R para el manejo de datos hidrometeorológicos de DHIME
 (IDEAM, Colombia). DHIME es un Sistema de Información para el manejo de datos hidrológicos y meteorológicos de Colombia. Enlace: https://github.com/GeomarPerales/ideamR
 
-  \end{minipage}
-\end{figure}
-
-
-
-
-\pagebreak
-\newpage
-
-
 \textcolor{black}{\textbf{RPisco | PERÚ}}
 
 \textcolor{darkgray}{\textbf{\emph{Software para la automatización de procesos hidrológicos}}}
 
 RPisco es un paquete desarrollado en R con herramientas para extraer y manipular datos climáticos de PISCO (SENAMHI, Perú). Enlace: [RPisco](https://github.com/GeomarPerales/RPisco).
+
+  \end{minipage}
+\end{figure}
+
+\pagebreak
+\newpage
+\begin{figure}[tph]
+  \begin{minipage}{0.17\textwidth}
+
+alfa
+
+  \end{minipage}
+  %
+  \hfill
+  %
+  \begin{minipage}{0.83\textwidth}
+  \justify
+
+
 
 
 \textcolor{black}{\textbf{ESTUDIO HIDROLÓGICO Y ANÁLISIS DE MÁXIMAS AVENIDAS | COLOMBIA}}
@@ -288,7 +292,21 @@ demandas hídricas, proceso y generación de bases de datos de demandas hídrica
 Responsable del Pre-proceso, generación y estructuración de bases de datos hidroclimáticos
 para el modelamiento hidrológico y de recursos hídricos de las cuencas del estudio.
 
+  \end{minipage}
+\end{figure}
+\pagebreak
 \newpage
+\begin{figure}[tph]
+  \begin{minipage}{0.17\textwidth}
+
+alfa
+
+  \end{minipage}
+  %
+  \hfill
+  %
+  \begin{minipage}{0.83\textwidth}
+  \justify
 
 \section{ACTIVIDADES DE DIVULGACIÓN}
 
@@ -316,3 +334,9 @@ de Recursos Hídricos a los miembros del Grupo Estudiantil CIDIMF y externos
 \textcolor{black}{\textbf{VOLUNTARIO}}
 
 Colabore en la gestión, organización y divulgación de eventos orientados a los Recursos Hídricos, desarrollé habilidades de liderazgo y participe en multiples actividades de divulgación.
+  
+  \end{minipage}
+\end{figure}
+
+
+
