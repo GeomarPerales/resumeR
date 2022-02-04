@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 12:19
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1049,43 +1049,43 @@ LaTeX Info: Redefining \nameref on input line 86.
 
 Package ragged2e Info: ABD: executing \RaggedRight on input line 86.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 95.
+(Font)              scaled to size 14.4pt on input line 97.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 13.0pt on input line 95.
+(Font)              scaled to size 13.0pt on input line 97.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.52666pt on input line 117.
+(Font)              scaled to size 8.52666pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.09047pt on input line 117.
+(Font)              scaled to size 6.09047pt on input line 127.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-17.
+27.
 (c:/Users/LENOVO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.18216pt on input line 117.
+(Font)              scaled to size 12.18216pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.52751pt on input line 117.
+(Font)              scaled to size 8.52751pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.09108pt on input line 117.
+(Font)              scaled to size 6.09108pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.17972pt on input line 117.
+(Font)              scaled to size 12.17972pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.5258pt on input line 117.
+(Font)              scaled to size 8.5258pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.08986pt on input line 117.
+(Font)              scaled to size 6.08986pt on input line 127.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 125.
+(hyperref)                removing `\new@ifnextchar' on input line 134.
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 127.
+(Font)              scaled to size 10.0pt on input line 136.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 132.
+(hyperref)                removing `\new@ifnextchar' on input line 141.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 140.
+(hyperref)                removing `\new@ifnextchar' on input line 149.
 
 File: resume_v04a_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type p
 df)
@@ -1097,105 +1097,105 @@ File: resume_v04a_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type p
 df)
 <use resume_v04a_files/figure-latex/unnamed-chunk-3-1.pdf>
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 93--157
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 94--166
 []$[]$  $[]$  
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 173.
+(hyperref)                removing `\new@ifnextchar' on input line 183.
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 179--180
+Underfull \hbox (badness 2150) in paragraph at lines 189--190
 []\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
 os hidroclimáticos para caracterización
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 186--187
+Underfull \hbox (badness 2150) in paragraph at lines 195--196
 []\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
 os hidroclimáticos para caracterización
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 210.
+(hyperref)                removing `\new@ifnextchar' on input line 220.
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 214.
+(Font)              scaled to size 10.0pt on input line 224.
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 162--233
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 172--243
 []$[]$  $[]$  
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 276--278
+Underfull \hbox (badness 2111) in paragraph at lines 285--287
 []\TU/montserrat(0)/m/n/10 Responsable de la redacción parcial, revisión y entr
 ega del Informe de la Cuenca Nanay,
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 283--285
+Underfull \hbox (badness 1383) in paragraph at lines 292--294
 []\TU/montserrat(0)/m/n/10 Soporte en Modelación Hidrológica, geoprocesamiento 
 de información pluviométrica, mod-
  []
 
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 238--308
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 248--317
 []$[]$  $[]$  
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 323.
+(hyperref)                removing `\new@ifnextchar' on input line 333.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 337.
+(hyperref)                removing `\new@ifnextchar' on input line 350.
 
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 312--351
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 321--364
 []$[]$  $[]$  
  []
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 353.
+(Font)              scaled to size 16.0pt on input line 366.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 353.
+(Font)              scaled to size 16.0pt on input line 366.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 16.19203pt, for example:
-(fancyhdr)                \setlength{\headheight}{16.19203pt}.
+(fancyhdr)                Make it at least 14.99203pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.99203pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.99203pt}.
 
 [1]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 16.19203pt, for example:
-(fancyhdr)                \setlength{\headheight}{16.19203pt}.
+(fancyhdr)                Make it at least 14.99203pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.99203pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.99203pt}.
 
 [2]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 16.19203pt, for example:
-(fancyhdr)                \setlength{\headheight}{16.19203pt}.
+(fancyhdr)                Make it at least 14.99203pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.99203pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-4.19203pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.99203pt}.
 
 [3] (./resume_v04a.aux)
 Package rerunfilecheck Info: File `resume_v04a.out' has not changed.
-(rerunfilecheck)             Checksum: 34994E4BA364A0C93D438CAF2AE2922B;1377.
+(rerunfilecheck)             Checksum: FF797F192A64FAC1B6123AEF3C314BAB;1377.
  ) 
 Here is how much of TeX's memory you used:
  18628 strings out of 478190
  349716 string characters out of 5853074
- 832420 words of memory out of 5000000
+ 836420 words of memory out of 5000000
  38999 multiletter control sequences out of 15000+600000
  471599 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
