@@ -42,7 +42,7 @@ header-includes:
   \begin{minipage}{0.6\textwidth}
   \justify
   
-\section{TITULACIÓN UNIVERSITARIA\vspace{-0.78em}}
+\section{TITULACIÓN UNIVERSITARIA\vspace{-0.717em}}
 
 \textcolor{black}{\textbf{Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020}}
 \vspace{1mm}\vfill
