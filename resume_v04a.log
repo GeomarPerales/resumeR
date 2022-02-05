@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 22:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1234,7 +1234,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.99203pt}.
 
-[3] (./resume_v04a.aux)
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.99203pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.99203pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.99203pt}.
+
+[4] (./resume_v04a.aux)
 Package rerunfilecheck Info: File `resume_v04a.out' has not changed.
 (rerunfilecheck)             Checksum: E9223086D5C518CA669D5C9E9A0F34C2;1646.
  ) 
@@ -1247,4 +1256,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  86i,11n,122p,1200b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume_v04a.pdf (3 pages).
+Output written on resume_v04a.pdf (4 pages).
