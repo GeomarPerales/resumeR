@@ -184,7 +184,7 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
 
 \begin{figure}[tph]
   \begin{minipage}[t]{0.17\textwidth}
-  \vspace*{-6\baselineskip}
+  \vspace*{-3\baselineskip}
 
 alfa
 
@@ -194,7 +194,7 @@ alfa
   %
   \begin{minipage}[t]{0.83\textwidth}
   \justify
-  \vspace*{-6\baselineskip}
+  \vspace*{-3\baselineskip}
 
 \section{EXPERIENCIA PROFESIONAL\vspace{-0.35em}}
 \vspace{1mm}\vfill
@@ -281,7 +281,7 @@ datos climáticos de PISCO (SENAMHI, Perú). Enlace: [RPisco](https://github.com
 \newpage
 \begin{figure}[tph]
   \begin{minipage}[t]{0.17\textwidth}
-  \vspace*{-6\baselineskip}
+  \vspace*{-6.5\baselineskip}
 
 alfa
 
@@ -291,7 +291,7 @@ alfa
   %
   \begin{minipage}[t]{0.83\textwidth}
   \justify
-  \vspace*{-6\baselineskip}
+  \vspace*{-6.5\baselineskip}
 
 \textcolor{black}{\textbf{ESTUDIO HIDROLÓGICO Y ANÁLISIS DE MÁXIMAS AVENIDAS | COLOMBIA}}
 \vspace{1mm}\vfill
@@ -361,17 +361,18 @@ para el modelamiento hidrológico y de recursos hídricos de las cuencas del est
 \pagebreak
 \newpage
 \begin{figure}[tph]
-  \begin{minipage}[t]{0.17\textwidth\vspace{-\topskip}}
-
+  \begin{minipage}[t]{0.17\textwidth}
+  \vspace*{4\baselineskip}
+  
 alfa
 
   \end{minipage}
   %
   \hfill
   %
-  \begin{minipage}[t]{0.83\textwidth\vspace{-\topskip}}
+  \begin{minipage}[t]{0.83\textwidth}
   \justify
-
+  \vspace*{4\baselineskip}
 
 \section{ACTIVIDADES DE DIVULGACIÓN\vspace{-0.35em}}
 
