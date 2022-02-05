@@ -186,7 +186,39 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
   \begin{minipage}[t]{0.17\textwidth}
   \vspace*{-3\baselineskip}
 
-alfa
+\vspace{9mm}\vfill
+\textcolor{gray}{\textbf{SET - DIC, 2021}}
+\vspace{1mm}\vfill
+\textcolor{gray}{\textbf{(3 meses)}}
+
+\vspace{2.3cm}\vfill
+
+\textcolor{gray}{\textbf{OCT, 2020 -\newline SET, 2021}}
+\vspace{0mm}\vfill
+\textcolor{gray}{\textbf{(12 meses)}}
+
+\vspace{2.4cm}\vfill
+
+\textcolor{gray}{\textbf{AGO, 2019 -\newline MAR, 2020}}
+\vspace{0mm}\vfill
+\textcolor{gray}{\textbf{(12 meses)}}
+
+\vspace{1.6cm}\vfill
+
+\textcolor{gray}{\textbf{DIC, 2018 -\newline SET, 2019}}
+\vspace{0mm}\vfill
+\textcolor{gray}{\textbf{(8 meses)}}
+
+\vspace{1.5cm}\vfill
+
+\textcolor{gray}{\textbf{AGO, 2017 -\newline DIC, 2018}}
+\vspace{0mm}\vfill
+\textcolor{gray}{\textbf{(17 meses)}}
+
+\vspace{2.3cm}\vfill
+
+\textcolor{gray}{\textbf{2021}}
+
 
   \end{minipage}
   %
@@ -283,7 +315,12 @@ datos climáticos de PISCO (SENAMHI, Perú). Enlace: [RPisco](https://github.com
   \begin{minipage}[t]{0.17\textwidth}
   \vspace*{-6.5\baselineskip}
 
-alfa
+\vspace{-28mm}\vfill
+\textcolor{gray}{\textbf{2021}}
+\vspace{2cm}\vfill
+\textcolor{gray}{\textbf{2020}}
+\vspace{4.3cm}\vfill
+\textcolor{gray}{\textbf{2019}}
 
   \end{minipage}
   %
@@ -292,7 +329,8 @@ alfa
   \begin{minipage}[t]{0.83\textwidth}
   \justify
   \vspace*{-6.5\baselineskip}
-
+  
+\vspace{-28mm}\vfill
 \textcolor{black}{\textbf{ESTUDIO HIDROLÓGICO Y ANÁLISIS DE MÁXIMAS AVENIDAS | COLOMBIA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{\emph{U.M. Quinchia y La Perla}}}
@@ -362,8 +400,9 @@ para el modelamiento hidrológico y de recursos hídricos de las cuencas del est
 \newpage
 \begin{figure}[tph]
   \begin{minipage}[t]{0.17\textwidth}
-  \vspace*{4\baselineskip}
-  
+  \vspace*{-3\baselineskip}
+
+\vspace{1mm}\vfill
 alfa
 
   \end{minipage}
@@ -372,8 +411,9 @@ alfa
   %
   \begin{minipage}[t]{0.83\textwidth}
   \justify
-  \vspace*{4\baselineskip}
-
+  \vspace*{-3\baselineskip}
+  
+\vspace{1mm}\vfill
 \section{ACTIVIDADES DE DIVULGACIÓN\vspace{-0.35em}}
 
 \textcolor{black}{\textbf{EXPOSITOR}}

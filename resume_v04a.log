@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 19:18
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  4 FEB 2022 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1149,65 +1149,65 @@ df)
 <use resume_v04a_files/figure-latex/unnamed-chunk-3-1.pdf>
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 202.
+(hyperref)                removing `\new@ifnextchar' on input line 234.
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 208--214
+Underfull \hbox (badness 1735) in paragraph at lines 240--246
 []\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
 os hidroclimáticos para caracterización
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 219--226
+Underfull \hbox (badness 1735) in paragraph at lines 251--258
 []\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
 os hidroclimáticos para caracterización
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 254.
+(hyperref)                removing `\new@ifnextchar' on input line 286.
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 258.
+(Font)              scaled to size 10.0pt on input line 290.
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 189--281
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 189--313
 [][]  []  
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 326--329
+Underfull \hbox (badness 1817) in paragraph at lines 364--367
 []\TU/montserrat(0)/m/n/10 Responsable de la redacción parcial, revisión y entr
 ega del Informe de la Cuenca Nanay,
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 334--337
+Underfull \hbox (badness 1048) in paragraph at lines 372--375
 []\TU/montserrat(0)/m/n/10 Soporte en Modelación Hidrológica, geoprocesamiento 
 de información pluviométrica, mod-
  []
 
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 286--363
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 318--401
 [][]  []  
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 380.
+(hyperref)                removing `\new@ifnextchar' on input line 420.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 397.
+(hyperref)                removing `\new@ifnextchar' on input line 437.
 
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 367--413
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 405--453
 [][]  []  
  []
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 415.
+(Font)              scaled to size 16.0pt on input line 455.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 415.
+(Font)              scaled to size 16.0pt on input line 455.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.99203pt, for example:
@@ -1234,26 +1234,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.99203pt}.
 
-[3]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.99203pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.99203pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.99203pt}.
-
-[4] (./resume_v04a.aux)
+[3] (./resume_v04a.aux)
 Package rerunfilecheck Info: File `resume_v04a.out' has not changed.
 (rerunfilecheck)             Checksum: E9223086D5C518CA669D5C9E9A0F34C2;1646.
  ) 
 Here is how much of TeX's memory you used:
  18591 strings out of 478190
  348386 string characters out of 5853074
- 840337 words of memory out of 5000000
+ 841337 words of memory out of 5000000
  38976 multiletter control sequences out of 15000+600000
  470023 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,11n,122p,1200b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume_v04a.pdf (4 pages).
+Output written on resume_v04a.pdf (3 pages).
