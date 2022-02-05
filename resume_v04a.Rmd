@@ -400,7 +400,7 @@ para el modelamiento hidrológico y de recursos hídricos de las cuencas del est
 \newpage
 \begin{figure}[tph]
   \begin{minipage}[t]{0.17\textwidth}
-  \vspace*{-3\baselineskip}
+  \vspace*{-7\baselineskip}
 
 \vspace{1mm}\vfill
 alfa
@@ -411,7 +411,7 @@ alfa
   %
   \begin{minipage}[t]{0.83\textwidth}
   \justify
-  \vspace*{-3\baselineskip}
+  \vspace*{-7\baselineskip}
   
 \vspace{1mm}\vfill
 \section{ACTIVIDADES DE DIVULGACIÓN\vspace{-0.35em}}
