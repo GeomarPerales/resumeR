@@ -31,9 +31,9 @@ header-includes:
 \newpage
 
 \begin{figure}[tph]
-\begin{minipage}[t]{0.3\textwidth\vspace{-\topskip}}
+\begin{minipage}[t]{0.3\textwidth}
   \centering
-  \vspace{-1cm}
+  \vspace*{-6\baselineskip}
 \includegraphics[width=5.0cm]{images/gperales.jpg}
   \section{PERFIL\vspace{-0.35em}}
   \justify
@@ -79,8 +79,9 @@ para lo cual llevo una preparación autodidacta técnica, cultural y bilingüe.
   %
   \hfill
   %
-  \begin{minipage}[t]{0.65\textwidth\vspace{-\topskip}}
+  \begin{minipage}[t]{0.65\textwidth}
   \justify
+  \vspace*{-6\baselineskip}
 
 \section{TITULACIÓN UNIVERSITARIA\vspace{-0.35em}}
 
@@ -182,7 +183,8 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
 \newpage
 
 \begin{figure}[tph]
-  \begin{minipage}[t]{0.17\textwidth\vspace{-\topskip}}
+  \begin{minipage}[t]{0.17\textwidth}
+  \vspace*{-6\baselineskip}
 
 alfa
 
@@ -190,8 +192,9 @@ alfa
   %
   \hfill
   %
-  \begin{minipage}[t]{0.83\textwidth\vspace{-\topskip}}
+  \begin{minipage}[t]{0.83\textwidth}
   \justify
+  \vspace*{-6\baselineskip}
 
 \section{EXPERIENCIA PROFESIONAL\vspace{-0.35em}}
 \vspace{1mm}\vfill
@@ -277,7 +280,8 @@ datos climáticos de PISCO (SENAMHI, Perú). Enlace: [RPisco](https://github.com
 \pagebreak
 \newpage
 \begin{figure}[tph]
-  \begin{minipage}[t]{0.17\textwidth\vspace{-\topskip}}
+  \begin{minipage}[t]{0.17\textwidth}
+  \vspace*{-6\baselineskip}
 
 alfa
 
@@ -285,8 +289,9 @@ alfa
   %
   \hfill
   %
-  \begin{minipage}[t]{0.83\textwidth\vspace{-\topskip}}
+  \begin{minipage}[t]{0.83\textwidth}
   \justify
+  \vspace*{-6\baselineskip}
 
 \textcolor{black}{\textbf{ESTUDIO HIDROLÓGICO Y ANÁLISIS DE MÁXIMAS AVENIDAS | COLOMBIA}}
 \vspace{1mm}\vfill
