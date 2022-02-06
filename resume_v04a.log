@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  5 FEB 2022 08:51
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.2)  5 FEB 2022 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1021,14 +1021,14 @@ LaTeX Info: Redefining \nameref on input line 86.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(17.07182pt, 580.15135pt, 17.07182pt)
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
 * v-part:(T,H,B)=(51.21504pt, 692.5399pt, 51.21504pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=580.15135pt
+* \textwidth=557.38951pt
 * \textheight=692.5399pt
-* \oddsidemargin=-55.19817pt
-* \evensidemargin=-55.19817pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-58.05495pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1064,48 +1064,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\new@ifnextchar' on input line 99.
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 102--105
+Underfull \hbox (badness 3568) in paragraph at lines 102--105
 []\TU/montserrat(0)/m/n/10 Estoy enfocado a las áreas de
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 102--105
-\TU/montserrat(0)/m/n/10 Hidrología, Hidráulica y Recursos
- []
-
-
-Underfull \hbox (badness 5681) in paragraph at lines 102--105
+Underfull \hbox (badness 2635) in paragraph at lines 102--105
 \TU/montserrat(0)/m/n/10 para el trabajo en equipo y la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--109
+Underfull \hbox (badness 1859) in paragraph at lines 106--109
 []\TU/montserrat(0)/m/n/10 Tengo capacidades técnicas en:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--109
+Underfull \hbox (badness 6775) in paragraph at lines 106--109
 \TU/montserrat(0)/m/n/10 Hidrología, procesando y anal-
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 106--109
-\TU/montserrat(0)/m/n/10 lando y procesando información
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--109
-\TU/montserrat(0)/m/n/10 hídrica; en Hidráulica, desarrol-
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 112--114
-\TU/montserrat(0)/m/n/10 maestría de Hidroinformática en
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 112--114
-\TU/montserrat(0)/m/n/10 una preparación autodidacta téc-
+Underfull \hbox (badness 1281) in paragraph at lines 106--109
+\TU/montserrat(0)/m/n/10 izando datos usando R, Python
  []
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
@@ -1149,65 +1129,74 @@ df)
 <use resume_v04a_files/figure-latex/unnamed-chunk-3-1.pdf>
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 234.
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 240--244
-[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
-os hidroclimáticos para caracterización
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 249--256
-[]\TU/montserrat(0)/m/n/10 Recopilación, pre-proceso, proceso y análisis de dat
-os hidroclimáticos para caracterización
- []
+(hyperref)                removing `\new@ifnextchar' on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 283.
+(hyperref)                removing `\new@ifnextchar' on input line 284.
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 287.
+(Font)              scaled to size 10.0pt on input line 288.
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 189--310
+Underfull \hbox (badness 10000) in paragraph at lines 298--302
+[]\TU/montserrat(0)/m/n/10 ideamR es un paquete desarrollado en R para el manej
+o de datos hidromete-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--302
+\TU/montserrat(0)/m/n/10 orológicos de DHIME(IDEAM, Colombia). DHIME es un Sist
+ema de Información
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--302
+\TU/montserrat(0)/m/n/10 para el manejo de datos hidrológicos y meteorológicos 
+de Colombia. Enlace:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
+[]\TU/montserrat(0)/m/n/10 RPisco es un paquete desarrollado en R con herramien
+tas para ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
+\TU/montserrat(0)/m/n/10 traer y manipular datos climáticos de PISCO (SENAMHI, 
+Perú). Enlace:
+ []
+
+
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 189--311
 [][]  []  
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 363--367
-[]\TU/montserrat(0)/m/n/10 Responsable de la redacción parcial, revisión y entr
-ega del Informe de la Cuenca Nanay,
- []
+LaTeX Warning: Float too large for page by 27.62935pt on input line 311.
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 372--376
-[]\TU/montserrat(0)/m/n/10 Soporte en Modelación Hidrológica, geoprocesamiento 
-de información pluviométrica, mod-
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 404.
 
 
-Overfull \hbox (2.61998pt too wide) in paragraph at lines 315--404
+Overfull \hbox (2.61998pt too wide) in paragraph at lines 316--422
 [][]  []  
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 423.
+(hyperref)                removing `\new@ifnextchar' on input line 442.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 440.
-
-
-Overfull \hbox (19.9765pt too wide) in paragraph at lines 408--459
+Overfull \hbox (42.73834pt too wide) in paragraph at lines 426--461
 [][]  []  
  []
 
 LaTeX Font Info:    Font shape `TU/montserrat(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 461.
+(Font)              scaled to size 16.0pt on input line 463.
 LaTeX Font Info:    Font shape `TU/montserrat(0)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 461.
+(Font)              scaled to size 16.0pt on input line 463.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.99203pt, for example:
@@ -1250,7 +1239,7 @@ Package rerunfilecheck Info: File `resume_v04a.out' has not changed.
 Here is how much of TeX's memory you used:
  18591 strings out of 478190
  348386 string characters out of 5853074
- 841337 words of memory out of 5000000
+ 842329 words of memory out of 5000000
  38976 multiletter control sequences out of 15000+600000
  470023 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

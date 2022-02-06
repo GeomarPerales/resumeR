@@ -3,7 +3,7 @@ title: ""
 output:
   pdf_document:
     latex_engine: xelatex
-geometry: top=0cm, margin=1.8cm, left=0.6cm, right=0.6cm
+geometry: top=0cm, margin=1.8cm, left=1cm, right=1cm
 fontsize: 10pt
 header-includes:
   - \usepackage{titlesec}
@@ -228,6 +228,7 @@ ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
   \justify
   \vspace*{-3\baselineskip}
 
+\vspace{10mm}\vfill
 \section{EXPERIENCIA PROFESIONAL\vspace{-0.35em}}
 \vspace{1mm}\vfill
 \textcolor{black}{\textbf{ESPECIALISTA JR. EN RECURSOS HÍDRICOS, ÁREA DE CIENCIAS DEL AGUA}}
@@ -327,7 +328,7 @@ manipular datos climáticos de PISCO (SENAMHI, Perú). Enlace: [RPisco](https://
   \justify
   \vspace*{-6.5\baselineskip}
   
-\vspace{-28mm}\vfill
+\vspace{10mm}\vfill
 \textcolor{black}{\textbf{ESTUDIO HIDROLÓGICO Y ANÁLISIS DE MÁXIMAS AVENIDAS | COLOMBIA}}
 \vspace{1mm}\vfill
 \textcolor{darkgray}{\textbf{\emph{U.M. Quinchia y La Perla}}}
@@ -395,7 +396,24 @@ de demandas hídricas.
 Responsable del Pre-proceso, generación y estructuración de bases de 
 datos hidroclimáticos para el modelamiento hidrológico y de recursos 
 hídricos de las cuencas del estudio.
-\vspace{5mm}
+\vspace{1mm}
+
+\section{ACTIVIDADES DE DIVULGACIÓN\vspace{-0.35em}}
+
+\textcolor{black}{\textbf{EXPOSITOR}}
+\vspace{1mm}\vfill
+\textcolor{darkgray}{\textbf{Empresa HelpGIS, Perú}}
+\vspace{1mm}\vfill
+
+Webinar “R y Python aplicados a la Hidrología”, 19-06-21.
+
+\textcolor{darkgray}{\textbf{Empresa Hidroclic, Perú}}
+\vspace{1mm}\vfill
+
+Webinar “Rompiendo Mitos en R aplicado a Hidrología”, 05-10-20.
+
+Webinar “R aplicado a Hidrología”, 29-09-20
+
 
   \end{minipage}
 \end{figure}
@@ -414,25 +432,9 @@ alfa
   %
   \begin{minipage}[t]{17cm}
   \justify
-  \vspace*{10\baselineskip}
+  \vspace*{8\baselineskip}
   
 \vspace{1mm}\vfill
-\section{ACTIVIDADES DE DIVULGACIÓN\vspace{-0.35em}}
-
-\textcolor{black}{\textbf{EXPOSITOR}}
-\vspace{1mm}\vfill
-\textcolor{darkgray}{\textbf{Empresa HelpGIS, Perú}}
-\vspace{1mm}\vfill
-
-Webinar “R y Python aplicados a la Hidrología”, 19-06-21.
-
-\textcolor{darkgray}{\textbf{Empresa Hidroclic, Perú}}
-\vspace{1mm}\vfill
-
-Webinar “Rompiendo Mitos en R aplicado a Hidrología”, 05-10-20.
-
-Webinar “R aplicado a Hidrología”, 29-09-20
-
 
 \section{ASOCIACIONES TÉCNICAS\vspace{-0.35em}}
 

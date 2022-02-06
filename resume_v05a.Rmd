@@ -1,0 +1,211 @@
+---
+title: ""
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: top=0cm, margin=1.8cm, left=1cm, right=1cm
+fontsize: 10pt
+header-includes:
+  - \usepackage{titlesec}
+  - \usepackage{fontspec}
+  - \usepackage{fancyhdr}
+  - \setmainfont{montserrat}
+  - \usepackage{xcolor}
+  - \usepackage{array}
+  - \usepackage[document]{ragged2e}
+  - \definecolor{p1}{HTML}{088A08}
+  - \definecolor{t1}{HTML}{088A08}
+  - \titleformat{\section}{\Large\fontsize{13}{13}\bfseries\sffamily\color{t1}}{}{0pt}{}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyhead[C]{\color{p1}{\changefont\textbf{GEOMAR PERALES APAICO}}}
+  - \fancypagestyle{plain}{\pagestyle{fancy}}
+  - \usepackage{titling}
+  - \usepackage{setspace}
+  - \usepackage{float}
+    - \usepackage{tabularx}
+---
+\newcommand{\changefont}{%
+    \fontsize{16}{9}\selectfont
+}
+
+\newpage
+
+\begin{figure}[tph]
+\begin{minipage}[t]{0.3\textwidth}
+  \centering
+  \vspace*{-6\baselineskip}
+\includegraphics[width=5.0cm]{images/gperales.jpg}
+  \section{PERFIL\vspace{-0.35em}}
+  \justify
+
+Estoy enfocado a las áreas de Hidrología, Hidráulica y Recursos Hídricos, tengo 
+buen desempeño para el trabajo en equipo y la mejora continua.
+\setlength\parskip{1em}
+
+Tengo capacidades técnicas en: Hidrología, procesando y analizando datos usando R,
+Python y Excel; En Recursos hídricos, recopilando y procesando información hídrica;
+en Hidráulica, desarrollando modelos de simulación.
+
+\setlength\parskip{1em}
+
+Uno de mis objetivos es cursar la maestría de Hidroinformática en Delft (Holanda),
+para lo cual llevo una preparación autodidacta técnica, cultural y bilingüe.
+
+  \subsection{IDIOMAS\vspace{0em}}
+
+\textcolor{darkgray}{\textbf{Español - nativo}\vfill\vspace{-1mm}}
+\textcolor{darkgray}{\textbf{Quechua - Básico (en proceso)}\vfill\vspace{-1mm}}
+\textcolor{darkgray}{\textbf{Inglés- Básico (en proceso)}\vfill\vspace{-1mm}}
+
+  \subsection{REFERENCIAS\vspace{0em}}
+
+\raggedright
+{Ing. Gustavo Atúncar\vfill\vspace{-3mm}}
+{Esp. de Hidrología e Hidráulica\vfill\vspace{-3mm}}
+{Cel. N° 939272465\vfill\vspace{0mm}}
+
+{Ing. Yonatan Bustamante\vfill\vspace{-3mm}}
+{Esp. de Hidrología e Hidráulica\vfill\vspace{-3mm}}
+{Cel. N° 982267689\vfill\vspace{0mm}}
+
+{Ing. Elvis Castro\vfill\vspace{-3mm}}
+{Jefe de Recursos Hídricos, SRK\vfill\vspace{-3mm}}
+{Cel. N° 956302303\vfill\vspace{0mm}}
+
+
+\vspace{1mm}
+
+  \end{minipage}
+  %
+  \hfill
+  %
+  \begin{minipage}[t]{0.65\textwidth}
+  \justify
+  \vspace*{-6\baselineskip}
+
+\section{TITULACIÓN UNIVERSITARIA\vspace{-0.35em}}
+
+\textcolor{black}{\textbf{Bachiller en Ing. Mecánica de Fluidos | Marzo - 2020}}
+\vspace{1.3mm}\vfill
+\textcolor{black}{\textbf{Formación en Ing. Mecánica de Fluidos | Julio - 2019}}
+\vspace{1.3mm}\vfill
+Universidad Nacional Mayor de San Marcos (UNMSM)
+\vspace{0.6mm}\vfill
+- Formación en Recursos Hídricos, Hidrología e Hidráulica.
+\vspace{0.6mm}\vfill
+
+\section{FORMACIÓN COMPLEMENTARIA\vspace{-0.35em}}
+
+- Hidrología General: 40 h| Agencia Nacional de Aguas| MOOC, Brasil\vspace{0.7mm}\vfill
+- Especialización en R: Básico, Intermedio y Avanzado: 84 h| SDC\vspace{0.7mm}\vfill
+- Modelos de Gestión de Recursos Hídricos: WEAP Y MODFLOW: 40 h| TYPSA\vspace{0.7mm}\vfill
+- Dipl. de Mod. Hidráulico e Hidrológico: 120 h| CIDHMA\vspace{0.7mm}\vfill
+- Gestión de Proy. con Metodologías Agiles: 40 h| Univ. Telefónica| MOOC, España\vspace{0.7mm}
+
+\section{SKILLS\vspace{-0.35em}}
+
+\textcolor{black}{\textbf{MODELAMIENTO}}
+
+```{r, echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44, fig.align='center'}
+library(ggplot2)
+skill.mod <- (c("WEAP", "WEAP", "IBER", "IBER", "HecRAS", "HecRAS",
+               "GoldSim", "GoldSim", "HEC-HMS", "HEC-HMS"))
+
+skill.idx <- c("p", "t", "p", "t", "p", "t", "p", "t", "p", "t")
+idx <- c(6, 2, 5.5, 2.5, 5.5, 2.5, 4.5, 3.5, 4, 4)
+
+df.mod <- data.frame(skill = skill.mod, skill.idx = skill.idx, idx = idx)
+df.mod$skill <- factor(df.mod$skill, levels = unique(df.mod$skill))
+
+ggplot(data = df.mod, aes(x = skill, y = idx, fill = skill.idx)) +
+  geom_bar(stat="sum", width = 0.35, position = "stack") +
+  theme_minimal() + coord_flip() +
+  scale_fill_manual(values = c("gray79", "chartreuse3")) +
+  theme(legend.position = "none",
+        axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        aspect.ratio = 1.5/1) + facet_grid(space = "free")
+```
+
+\textcolor{black}{\textbf{CAD Y SIG}}
+
+```{r , echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44, fig.align='center'}
+library(ggplot2)
+skill.sig <- (c("AutoCAD", "AutoCAD", "Civil 3D", "Civil 3D", "Python para SIG",
+                "Python para SIG", "QGIS", "QGIS", "ArcGIS", "ArcGIS"))
+
+skill.idx <- c("p", "t", "p", "t", "p", "t", "p", "t", "p", "t")
+idx <- c(5, 3, 5, 3, 4, 4, 3.5, 4.5, 3, 5)
+
+df.sig <- data.frame(skill = skill.sig, skill.idx = skill.idx, idx = idx)
+df.sig$skill <- factor(df.sig$skill, levels = unique(df.sig$skill))
+
+ggplot(data = df.sig, aes(x = skill, y = idx, fill = skill.idx)) +
+  geom_bar(stat="sum", width = 0.35, position = "stack") +
+  theme_minimal() + coord_flip() +
+  scale_fill_manual(values = c("gray79", "chartreuse3")) +
+  theme(legend.position = "none",
+        axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        aspect.ratio = 1.5/1) + facet_grid(space = "free")
+```
+
+\textcolor{black}{\textbf{ESTADÍSTICA Y LENG. DE PROGRAMACIÓN}}
+```{r, echo=FALSE, fig.height = 2, fig.width = 3, fig.asp = .44, fig.align='center'}
+skill.est <- c("HYDROGNOMON", "HYDROGNOMON", "PAST", "PAST", "HYDRACCESS",
+                "HYDRACCESS", "R/PYTHON", "R/PYTHON")
+skill.idx <- c("p", "t", "p", "t", "p", "t", "p", "t")
+idx <- c(4, 4, 4, 4, 4, 4, 3, 5)
+
+df.est <- data.frame(skill = skill.est, skill.idx = skill.idx, idx = idx)
+df.est$skill <- factor(df.est$skill, levels = unique(df.est$skill))
+
+ggplot(data = df.est, aes(x = skill, y = idx, fill = skill.idx)) +
+  geom_bar(stat="sum", width = 0.35, position = "stack") +
+  theme_minimal() + coord_flip() +
+  scale_fill_manual(values = c("gray79", "chartreuse3")) +
+  theme(legend.position = "none",
+        axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        aspect.ratio = 1.5/1) + facet_grid(space = "free")
+```
+
+  \end{minipage}
+\end{figure}
+
+\pagebreak
+
+\begin{document}
+  \newpage
+  \centering
+
+  \ begin{tabular}[H]{ m{15em} | m{39em} | }
+  cell1 &
+ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff  
+ ffffff fffffff fffffffff ffff fffff ffff fffffffffffffffffffffffffffffffff \\ 
+ cell4 & cell5 \\  
+ cell7 & cell8 
+  }
+  
+    
+  \end{tabular}
+
+\end{document}
+
+\newpage
+\centering
+  \begin{tabular}{ c c c }
+  
+ cell1 & cell2 & cell3 \\ 
+ cell4 & cell5 & cell6 \\  
+ cell7 & cell8 & cell9   
+ 
+ 
+  \end{tabular}
